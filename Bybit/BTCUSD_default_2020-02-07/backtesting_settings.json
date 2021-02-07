@@ -1,0 +1,64 @@
+{
+    "__comment__starting_candidate_enums": [
+        "given",
+        "random",
+        "best"
+    ],
+    "break_on": [
+        [
+            "OFF: break on first soft stop",
+            "lambda trade, tick: trade['type'] == 'stop_loss'"
+        ],
+        [
+            "OFF: neg pnl sum",
+            "lambda trade, tick: trade['pnl_sum'] < 0.0 and trade['progress'] > 0.3"
+        ],
+        [
+            "OFF: liq diff too small",
+            "lambda trade, tick: trade['liq_diff'] < 0.02"
+        ],
+        [
+            "OFF: time between consec trades",
+            "lambda trade, tick: tick['timestamp'] - trade['timestamp'] > 1000 * 60 * 60 * 24"
+        ],
+        [
+            "OFF: pos price last price diff",
+            "lambda trade, tick: calc_diff(trade['price'], tick['price']) > 1.05"
+        ],
+        [
+            "OFF: adg too low",
+            "lambda trade, tick: trade['average_daily_gain'] < 1.01 and trade['progress'] >= 0.1"
+        ]
+    ],
+    "cross_mode": true,
+    "ddown_factor": 0.014,
+    "default_qty": -0.0903,
+    "do_long": true,
+    "do_shrt": true,
+    "ema_span": 16318.0,
+    "exchange": "bybit",
+    "grid_coefficient": 183.55,
+    "grid_spacing": 0.0038,
+    "inverse": true,
+    "leverage": 100,
+    "liq_diff_threshold": 0.04,
+    "maker_fee": -0.00025,
+    "market_stop_loss": false,
+    "max_leverage": 100,
+    "max_markup": 0.01085,
+    "min_markup": 7e-05,
+    "min_notional": 0.0,
+    "min_qty": 1.0,
+    "n_close_orders": 12,
+    "n_days": 46,
+    "n_jackrabbit_iterations": 1,
+    "price_step": 0.5,
+    "qty_step": 1.0,
+    "session_name": "btc_009_default_46_days",
+    "starting_balance": 0.001,
+    "starting_candidate": "given",
+    "starting_k": 0,
+    "stop_loss_pos_reduction": 0.005,
+    "symbol": "BTCUSD",
+    "taker_fee": 0.00075
+}
