@@ -1,0 +1,66 @@
+================
+Results
+================
+
+net pnl 2333.599171
+loss sum -119.100147
+gain 5834.00%
+n_days 50
+average_daily_gain 8.51%
+n trades 70312
+n closes 66958
+n stop loss closes 16
+biggest_pos_size 8.976
+closest liq 3.5712%
+
+==========================
+Backtesting settings
+==========================
+
+n_days 50
+ddown_factor 0.064
+default_qty -0.763
+ema_span 816563.0
+grid_coefficient 47.86
+grid_spacing 0.00731
+leverage 54.0
+liq_diff_threshold 0.0369
+max_markup 0.02138
+min_markup 0.00143
+n_close_orders 10.0
+stop_loss_pos_reduction 0.212
+{'break_on': [['OFF: break on first soft stop',
+   "lambda x: x['type'] == 'stop_loss'"],
+  ['ON: neg pnl sum',
+   "lambda x: x['pnl_sum'] < 0.0 and x['progress'] > 0.35"]],
+ 'cross_mode': True,
+ 'ddown_factor': 0.064,
+ 'default_qty': -0.763,
+ 'do_long': True,
+ 'do_shrt': True,
+ 'ema_span': 816563.0,
+ 'exchange': 'binance',
+ 'grid_coefficient': 47.86,
+ 'grid_spacing': 0.00731,
+ 'inverse': False,
+ 'leverage': 54.0,
+ 'liq_diff_threshold': 0.0369,
+ 'maker_fee': 0.00018,
+ 'market_stop_loss': False,
+ 'max_leverage': 90,
+ 'max_markup': 0.02138,
+ 'min_markup': 0.00143,
+ 'min_notional': 1.0,
+ 'min_qty': 0.001,
+ 'n_close_orders': 10.0,
+ 'n_days': 50,
+ 'n_jackrabbit_iterations': 200,
+ 'price_step': 0.01,
+ 'qty_step': 0.001,
+ 'random_starting_candidate': False,
+ 'session_name': '100 Day ETH Exhaustive',
+ 'starting_balance': 40.0,
+ 'starting_k': 0,
+ 'stop_loss_pos_reduction': 0.212,
+ 'symbol': 'ETHUSDT',
+ 'taker_fee': 0.00036}

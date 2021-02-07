@@ -1,0 +1,24 @@
+{
+    "balance": -0.99,
+    "cross_mode": true,
+    "ddown_factor": 0.064,
+    "default_qty": -0.763,
+    "grid_coefficient": 47.86,
+    "grid_spacing": 0.00731,
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": true,
+        "tick_ema": {
+            "span": 816563.0
+        }
+    },
+    "leverage": 54.0,
+    "liq_diff_threshold": 0.0369,
+    "market_stop_loss": false,
+    "max_markup": 0.02138,
+    "min_markup": 0.00143,
+    "n_close_orders": 10.0,
+    "n_entry_orders": 8,
+    "stop_loss_pos_reduction": 0.212,
+    "symbol": "ETHUSDT"
+}
