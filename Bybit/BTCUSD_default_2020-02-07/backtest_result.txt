@@ -1,0 +1,14 @@
+================
+Results
+================
+
+net pnl 0.00589 btc
+loss sum -0.0 btc
+gain 679.08%
+n_days 46
+average_daily_gain 4.285%
+n trades 46604
+n closes 34295
+n stop loss closes 0
+biggest_pos_size 1291 usd
+closest liq 5.91%
