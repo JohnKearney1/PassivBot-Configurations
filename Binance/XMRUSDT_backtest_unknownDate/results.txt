@@ -1,0 +1,12 @@
+XMRSuperProfitableBacktestingSettings.json Results:
+
+net pnl 323806.33874
+loss sum 0.0
+gain 3238063.39%
+n_days 60.0
+average_daily_gain 18.90%
+n trades 163994
+n closes 148960
+n stop loss closes 0
+biggest_pos_size 35076.195000000014
+closest liq 5.8656%
