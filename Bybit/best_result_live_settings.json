@@ -1,0 +1,31 @@
+{
+    "balance_pct": 0.534,
+    "cross_mode": true,
+    "ddown_factor": 1.437,
+    "entry_qty_pct": 0.5427,
+    "grid_coefficient": 72.5,
+    "grid_spacing": 0.0036,
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": true,
+        "funding_fee_collect_mode": false,
+        "ohlcv_rsi": {
+            "n_periods": 14,
+            "period_ms": 900000
+        },
+        "tick_ema": {
+            "span": 9207.0
+        }
+    },
+    "leverage": 36.0,
+    "market_stop_loss": false,
+    "max_markup": 0.02119,
+    "min_close_qty_multiplier": 0.3,
+    "min_markup": 0.0011,
+    "n_close_orders": 13.0,
+    "n_entry_orders": 8,
+    "stop_loss_liq_diff": 0.0439,
+    "stop_loss_pos_price_diff": 0.0625,
+    "stop_loss_pos_reduction": 0.026,
+    "symbol": "BTCUSD"
+}
