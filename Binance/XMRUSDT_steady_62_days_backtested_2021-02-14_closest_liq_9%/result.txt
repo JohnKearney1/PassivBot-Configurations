@@ -6,5 +6,7 @@ average_daily_gain 4.59%
 n trades 35203
 n closes 25864
 n stop loss closes 4
-biggest_pos_size 7.452999999999999
+biggest_pos_size 7.453
 closest liq 8.9694%
+starting balance 10.0
+long: True, short: True
