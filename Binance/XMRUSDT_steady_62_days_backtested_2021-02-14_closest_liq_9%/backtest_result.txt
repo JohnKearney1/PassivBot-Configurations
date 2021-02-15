@@ -1,0 +1,12 @@
+net pnl 169.278725
+loss sum -26.969123
+gain 1692.79%
+n_days 62
+average_daily_gain 4.77%
+n trades 28925
+n closes 20248
+n stop loss closes 3
+biggest_pos_size 5.9550000000
+closest liq 9.4162%
+starting balance 10.0
+long: True, short: True
