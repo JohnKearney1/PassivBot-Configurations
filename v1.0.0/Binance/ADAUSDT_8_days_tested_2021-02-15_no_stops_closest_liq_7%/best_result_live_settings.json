@@ -4,16 +4,16 @@
     "logging_level": 0,
     "cross_mode": true,
     "balance_pct": 0.83,
-    "ddown_factor": 2.393,
-    "entry_qty_pct": 0.03336,
+    "ddown_factor": 2.388,
+    "entry_qty_pct": 0.03317,
     "min_close_qty_multiplier": 0.81,
     "leverage": 20.0,
     "n_entry_orders": 8,
     "n_close_orders": 15.0,
-    "grid_spacing": 0.00071,
-    "grid_coefficient": 315.01,
+    "grid_spacing": 0.0007,
+    "grid_coefficient": 314.86,
     "min_markup": 0.00177,
-    "max_markup": 0.02913,
+    "max_markup": 0.02917,
     "indicator_settings": {
         "do_long": true,
         "do_shrt": true,
@@ -23,7 +23,7 @@
             "period_ms": 1800000
         },
         "tick_ema": {
-            "span": 6238.0
+            "span": 6102.0
         }
     },
     "market_stop_loss": false,
