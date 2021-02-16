@@ -1,0 +1,72 @@
+{
+    "balance_pct": [
+        0.01,
+        1.0,
+        0.01
+    ],
+    "ddown_factor": [
+        0.0,
+        2.5,
+        0.001
+    ],
+    "ema_span": [
+        100.0,
+        100000.0,
+        1.0
+    ],
+    "entry_qty_pct": [
+        1e-05,
+        0.2,
+        1e-05
+    ],
+    "grid_coefficient": [
+        0.0,
+        600.0,
+        0.01
+    ],
+    "grid_spacing": [
+        0.0002,
+        0.01,
+        1e-05
+    ],
+    "leverage": [
+        5,
+        75,
+        1.0
+    ],
+    "max_markup": [
+        0.001,
+        0.03,
+        1e-05
+    ],
+    "min_close_qty_multiplier": [
+        0.0,
+        1.0,
+        0.01
+    ],
+    "min_markup": [
+        0.0005,
+        0.002,
+        1e-05
+    ],
+    "n_close_orders": [
+        8,
+        25,
+        1
+    ],
+    "stop_loss_liq_diff": [
+        0.01,
+        0.01,
+        0.0001
+    ],
+    "stop_loss_pos_price_diff": [
+        99.9,
+        99.9,
+        0.0001
+    ],
+    "stop_loss_pos_reduction": [
+        0.001,
+        0.3,
+        0.001
+    ]
+}
