@@ -1,0 +1,62 @@
+{
+    "session_name": "ada_session_001_8_days_no_stops_liq_diff_5%",
+    "exchange": "binance",
+    "symbol": "ADAUSDT",
+    "n_days": 8,
+
+    "starting_candidate_preference": ["best", "random", "given"],
+    "starting_k": 0,
+    "n_jackrabbit_iterations": 200,
+
+    "starting_balance": 20.0,
+    "inverse": false,
+    "maker_fee": 0.00018,
+    "market_stop_loss": false,
+    "min_qty": 1.0,
+    "price_step": 0.00001,
+    "qty_step": 1.0,
+    "taker_fee": 0.00036,
+
+    "min_notional": 1.0,
+    "cross_mode": true,
+    "max_leverage": 75,
+    "do_long": true,
+    "do_shrt": true,
+
+    "break_on": [
+        ["ON: break on first soft stop",
+         "lambda trade, tick: trade['type'] == 'stop_loss'"],
+        ["OFF: neg pnl sum",
+         "lambda trade, tick: trade['pnl_sum'] < 0.0 and trade['progress'] > 0.5"],
+        ["ON: liq diff too small",
+         "lambda trade, tick: trade['liq_diff'] < 0.06"],
+        ["ON: time between consec trades",
+         "lambda trade, tick: tick['timestamp'] - trade['timestamp'] > 1000 * 60 * 60 * 12"],
+        ["OFF: pos price last price diff",
+         "lambda trade, tick: calc_diff(trade['price'], tick['price']) > 1.05"],
+        ["ON: adg too low",
+         "lambda trade, tick: trade['average_daily_gain'] < 1.1 and trade['progress'] >= 0.2"],
+        ["OFF: no soft stops",
+         "lambda trade, tick: trade['loss_sum'] == 0.0 and trade['progress'] >= 0.95"],
+        ["OFF: balance + pnl below starting_balance",
+         "lambda trade, tick: trade['actual_balance'] + trade['pnl_sum'] < 0.0"]
+    ],
+
+    "balance_pct": 0.8,
+    "ddown_factor": 0.4,
+    "entry_qty_pct": 0.01,
+    "min_close_qty_multiplier": 0.5,
+    "leverage": 32.0,
+    "n_close_orders": 14.0,
+
+    "grid_coefficient": 99.5,
+    "grid_spacing": 0.0026,
+    "max_markup": 0.01208,
+    "min_markup": 0.00171,
+
+    "ema_span": 35241.0,
+
+    "stop_loss_liq_diff": 0.02,
+    "stop_loss_pos_price_diff": 0.2,
+    "stop_loss_pos_reduction": 0.1
+}
