@@ -1,0 +1,14 @@
+net pnl 14.686852
+loss sum -5.643350
+gain 3263.74%
+n_days 41
+average_daily_gain 8.95%
+n trades 35364
+n closes 25725
+n stop loss closes 321
+biggest_pos_size 183786.0000000000
+closest liq 2.6929%
+starting balance 0.45
+long: True, short: True
+
+- @Patrick2018
