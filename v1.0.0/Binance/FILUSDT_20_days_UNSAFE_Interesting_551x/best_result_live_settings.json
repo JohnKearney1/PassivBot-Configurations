@@ -1,0 +1,34 @@
+{
+    "config_name": "FILRandomSearch20Day",
+    "symbol": "FILUSDT",
+    "logging_level": 0,
+    "cross_mode": true,
+    "balance_pct": 0.839,
+    "ddown_factor": 0.017,
+    "entry_qty_pct": 0.24844,
+    "min_close_qty_multiplier": 0.5,
+    "leverage": 36.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 22.0,
+    "grid_spacing": 0.0882,
+    "grid_coefficient": 623.97,
+    "min_markup": 0.00071,
+    "max_markup": 0.00432,
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": true,
+        "funding_fee_collect_mode": false,
+        "ohlcv_rsi": {
+            "n_periods": 21,
+            "period_ms": 1800000
+        },
+        "tick_ema": {
+            "span": 37982.0,
+            "spread": 0.0049
+        }
+    },
+    "market_stop_loss": false,
+    "stop_loss_liq_diff": 0.06,
+    "stop_loss_pos_price_diff": 0.0226,
+    "stop_loss_pos_reduction": 0.227
+}
