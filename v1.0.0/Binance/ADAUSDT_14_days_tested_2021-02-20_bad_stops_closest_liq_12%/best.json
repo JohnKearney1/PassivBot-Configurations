@@ -1,0 +1,18 @@
+{
+    "balance_pct": 1.0,
+    "ddown_factor": 0.09,
+    "ema_span": 72772.0,
+    "ema_spread": 0.0009,
+    "entry_qty_pct": 0.055,
+    "gain": 15.526205859455224,
+    "grid_coefficient": 495.53,
+    "grid_spacing": 0.00094,
+    "leverage": 42.0,
+    "max_markup": 0.0065,
+    "min_close_qty_multiplier": 0.9,
+    "min_markup": 0.00159,
+    "n_close_orders": 19.0,
+    "stop_loss_liq_diff": 0.06,
+    "stop_loss_pos_price_diff": 0.0489,
+    "stop_loss_pos_reduction": 0.189
+}
