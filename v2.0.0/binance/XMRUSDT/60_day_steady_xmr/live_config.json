@@ -1,5 +1,5 @@
 {
-    "config_name": "60_day_steady_xmr_closest_liq_7%_adg_6.2%",
+    "config_name": "xmr_session_001",
     "symbol": "XMRUSDT",
     "logging_level": 0,
     "cross_mode": true,
