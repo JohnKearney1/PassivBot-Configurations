@@ -1,0 +1,31 @@
+{
+    "config_name": "LINKUSDT2.0",
+    "symbol": "LINKUSDT",
+    "logging_level": 0,
+    "cross_mode": true,
+    "balance_pct": 0.981,
+    "ddown_factor": 0.232,
+    "entry_qty_pct": 0.32562,
+    "min_close_qty_multiplier": 0.3,
+    "leverage": 66.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 22.0,
+    "grid_spacing": 0.04274,
+    "grid_coefficient": 351.72,
+    "min_markup": 0.00195,
+    "max_markup": 0.01207,
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": true,
+        "funding_fee_collect_mode": false,
+        "tick_ema": {
+            "span": 458419770.0,
+            "spread": 0.0287
+        }
+    },
+    "market_stop_loss": false,
+    "stop_loss_liq_diff": 0.1265,
+    "stop_loss_pos_price_diff": 0.0878,
+    "stop_loss_pos_reduction": 0.986,
+    "key": "4a38d9148f549c9481b059df28dd33e3fa1610331e9363477b9433811e9052d6"
+}
