@@ -1,0 +1,31 @@
+{
+    "config_name": "lit_session_12_days_nostops",
+    "symbol": "LITUSDT",
+    "logging_level": 0,
+    "cross_mode": true,
+    "balance_pct": 0.601,
+    "ddown_factor": 1.987,
+    "entry_qty_pct": 0.31765,
+    "min_close_qty_multiplier": 0.18,
+    "leverage": 8.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 19.0,
+    "grid_spacing": 0.00065,
+    "grid_coefficient": 382.76,
+    "min_markup": 0.00125,
+    "max_markup": 0.011,
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": true,
+        "funding_fee_collect_mode": false,
+        "tick_ema": {
+            "span": 425471.0,
+            "spread": 0.0084
+        }
+    },
+    "market_stop_loss": false,
+    "stop_loss_liq_diff": 0.08,
+    "stop_loss_pos_price_diff": 0.9,
+    "stop_loss_pos_reduction": 0.001,
+    "key": "250272a0bf3005daa1f44af9dcac417831c0ca22644725faa4776dae9d6ba394"
+}
