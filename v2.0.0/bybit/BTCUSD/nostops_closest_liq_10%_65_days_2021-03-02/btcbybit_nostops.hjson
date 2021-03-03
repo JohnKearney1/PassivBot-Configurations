@@ -1,0 +1,54 @@
+{
+  session_name: btc_session_011
+  exchange: bybit
+  user: e
+  symbol: BTCUSD
+  n_days: 65
+  # if starting_candidate_filepath is not a valid file, will use random starting candidate
+  starting_candidate_filepath: backtest_configs/conservative_starting_config.json
+  # starting_candidate_filepath: live_settings/bybit/default.json
+  # starting_candidate_filepath: backtest_results/bybit/BTCUSD/btc_session_006_64_days/live_config.json
+  multiprocessing: false
+  starting_k: 200
+  n_jackrabbit_iterations: 600
+  starting_balance: 0.001
+  break_on:
+  [
+    ["ON: break on first soft stop",
+     "lambda trades, ticks, k: trades[-1]['type'] == 'stop_loss'"]
+    ["OFF: neg pnl sum",
+     "lambda trades, ticks, k: trades[-1]['net_pnl_plus_fees'] < 0.0 and k / len(ticks) > 0.35"]
+    ["ON: liq too close",
+     "lambda trades, ticks, k: trades[-1]['closest_liq'] < 0.1"]
+    ["ON: time between consec trades",
+     "lambda trades, ticks, k: False if len(trades) <= 2 else ((trades[-1]['timestamp'] - trades[-2]['timestamp']) > 1000 * 60 * 60 * 36)"]
+    ["OFF: pos price last price diff",
+     "lambda trades, ticks, k: calc_diff(trades[-1]['price'], ticks[k]['price']) > 1.05"]
+    ["OFF: adg too low",
+     "lambda trades, ticks, k: trades[-1]['daily_gain_ratio'] < 1.005 and k / len(ticks) >= 0.5"]
+    ["OFF: no soft stops",
+     "lambda trades, ticks, k: trades[-1]['loss_sum'] == 0.0 and k / len(ticks) >= 0.9"]
+    ["OFF: balance + pnl below starting_balance",
+     "lambda trades, ticks, k: trades[-1]['actual_balance'] + trades[-1]['net_pnl_plus_fees'] < 0.0"]
+  ]
+  ranges:
+  {
+    balance_pct: [0.01, 1.0, 0.001]
+    entry_qty_pct: [0.0001, 0.5, 0.00001]
+    ddown_factor: [0, 4.0, 0.001]
+    ema_span: [100.0, 500000.0, 1.0]
+    ema_spread: [0, 0.03, 0.0001]
+    grid_coefficient: [0, 800, 0.01]
+    grid_spacing: [0.0002, 0.012, 1e-05]
+    leverage: [2.0, 999999.0, 1.0]
+    max_markup: [0.001, 0.03, 1e-05]
+    min_markup: [0.0005, 0.002, 1e-05]
+    min_close_qty_multiplier: [0.0, 1.0, 0.01]
+    n_close_orders: [1, 25, 1]
+    stop_loss_liq_diff: [0.01, 0.01, 0.0001]
+    stop_loss_pos_price_diff: [0.9, 0.9, 0.0001]
+    stop_loss_pos_reduction: [0.001, 0.001, 0.001]
+    do_long: [1, 1, 1]
+    do_shrt: [1, 1, 1]
+  }
+}
