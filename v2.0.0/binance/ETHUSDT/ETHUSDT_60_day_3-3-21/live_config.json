@@ -1,0 +1,31 @@
+{
+    "config_name": "ETHUSDT2.2",
+    "symbol": "ETHUSDT",
+    "logging_level": 0,
+    "cross_mode": true,
+    "balance_pct": 0.377,
+    "ddown_factor": 1.594,
+    "entry_qty_pct": 0.18832,
+    "min_close_qty_multiplier": 0.9,
+    "leverage": 50.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 23.0,
+    "grid_spacing": 0.09468,
+    "grid_coefficient": 938.18,
+    "min_markup": 0.00147,
+    "max_markup": 0.00861,
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": true,
+        "funding_fee_collect_mode": false,
+        "tick_ema": {
+            "span": 121120.0,
+            "spread": 0.0401
+        }
+    },
+    "market_stop_loss": false,
+    "stop_loss_liq_diff": 0.2435,
+    "stop_loss_pos_price_diff": 0.0602,
+    "stop_loss_pos_reduction": 0.2,
+    "key": "be36d1e07d2673b17ae4b88ed39632c569f58726162fff9f91daa7f05f379ee7"
+}
