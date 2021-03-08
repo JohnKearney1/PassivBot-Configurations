@@ -1,0 +1,35 @@
+{
+    "config_name": "nostops_closest_liq_10%_adg_9%",
+    "symbol": "XMRUSDT",
+    "logging_level": 0,
+    "cross_mode": true,
+
+    "balance_pct": 0.1403,
+    "ddown_factor": 1.648,
+    "entry_qty_pct": 0.0876,
+    "min_close_qty_multiplier": 0.28,
+    "leverage": 33.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 21.0,
+
+    "grid_spacing": 0.00208,
+    "grid_coefficient": 5.23,
+    "min_markup": 0.001,
+    "max_markup": 0.01449,
+
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": true,
+        "funding_fee_collect_mode": false,
+        "tick_ema": {
+            "span": 9190.0,
+            "spread": 0.0152
+        }
+    },
+
+    "market_stop_loss": false,
+    "stop_loss_liq_diff": 0.09,
+    "stop_loss_pos_price_diff": 0.9,
+    "stop_loss_pos_reduction": 0.01,
+    "key": "d897a2d5f962e0b2332b2f6f1a3f4fb8c968c5125d4094434ac59a39524319be"
+}
