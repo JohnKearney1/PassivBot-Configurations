@@ -1,0 +1,31 @@
+{
+    "config_name": "dot_20210309",
+    "symbol": "DOTUSDT",
+    "logging_level": 0,
+    "cross_mode": true,
+    "balance_pct": 0.233,
+    "ddown_factor": 1.46,
+    "entry_qty_pct": 0.0349,
+    "min_close_qty_multiplier": 0.6,
+    "leverage": 50.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 13.0,
+    "grid_spacing": 0.00374,
+    "grid_coefficient": 91.35,
+    "min_markup": 0.00167,
+    "max_markup": 0.01936,
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": true,
+        "funding_fee_collect_mode": false,
+        "tick_ema": {
+            "span": 89087.0,
+            "spread": 0.0078
+        }
+    },
+    "market_stop_loss": false,
+    "stop_loss_liq_diff": 0.0615,
+    "stop_loss_pos_price_diff": 0.0819,
+    "stop_loss_pos_reduction": 0.066,
+    "key": "f92c7b20aec400ac83a716271f3ae27663e0aac332953296c43ad0bd51715c37"
+}
