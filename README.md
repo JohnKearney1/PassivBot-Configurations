@@ -24,3 +24,4 @@ Special Thanks to @enarjord (https://github.com/enarjord)
 * https://github.com/JohnKearney1/PassivBot-Configurations/blob/main/v2.0.0/binance/LTCUSDT/ltc_20210309_20_days_liq_10.5%25_adg_15.5%25/README.md
 * https://github.com/JohnKearney1/PassivBot-Configurations/blob/main/v2.0.0/binance/DOTUSDT/dot_20210309_20_days_liq_10%25_adg_8%25/README.md
 * https://github.com/JohnKearney1/PassivBot-Configurations/blob/main/v2.0.0/binance/SXPUSDT/sxp_20210309_20_days_liq_10%25_adg_21%25/README.md
+* https://github.com/JohnKearney1/PassivBot-Configurations/blob/main/v2.0.0/bybit/EOSUSD/eos_20210310_10_days_liq_12%25_adg_5%25/README.md
