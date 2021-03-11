@@ -78,4 +78,4 @@ venv.bak/
 # backtest results
 *backtest_trades
 *ticks_cache.npy
-
+*results.txt

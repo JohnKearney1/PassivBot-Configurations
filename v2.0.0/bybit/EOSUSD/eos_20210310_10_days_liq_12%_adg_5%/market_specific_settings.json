@@ -1,0 +1,1 @@
+{"inverse": true, "maker_fee": -0.00025, "taker_fee": 0.00075, "exchange": "bybit", "max_leverage": 50, "min_qty": 1.0, "min_cost": 0.0, "qty_step": 1.0, "price_step": 0.001}
