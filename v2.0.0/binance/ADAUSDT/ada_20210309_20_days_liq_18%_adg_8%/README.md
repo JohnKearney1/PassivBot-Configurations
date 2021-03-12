@@ -1,7 +1,4 @@
 # live run result
-*  starting with  at bot2 
-*  with 
-* 2012-03-12T09:40 with 107.81
 
 |    Datetime      | Wallet balance |      Comment     |
 |------------------|:--------------:|-----------------:|
