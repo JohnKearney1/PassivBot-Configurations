@@ -20,8 +20,7 @@ Files are stored correspondant to their version. Each sub-folder represents a si
 Special Thanks to @enarjord (https://github.com/enarjord)
 
 # Some live run results
-
-# live run result
+The detail of each live run can be found on the corresponding config links.
 ## Binance
 |    Config        |  Start balance |   End balance  |
 |------------------|:--------------:|-----------------:|
