@@ -1,7 +1,3 @@
-# live run result 
-*   starting with 100u at bot3
-* 2021-03-11T09:21 with 107.46
-
 # live run result
 |    Datetime      | Wallet balance |      Comment     |
 |------------------|:--------------:|-----------------:|
