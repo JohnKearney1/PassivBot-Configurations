@@ -1,6 +1,4 @@
 # live run result
-*  starting with 100u at bot5 
-# live run result
 |    Datetime      | Wallet balance |      Comment     |
 |------------------|:--------------:|-----------------:|
 | 2021-03-11T22:30 |    100.00      | starting at bot5 |
