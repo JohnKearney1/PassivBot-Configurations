@@ -33,4 +33,4 @@ The detail of each live run can be found on the corresponding config links.
 ## Bybit
 |    Config        |  Start balance |   End balance  |
 |------------------|:--------------:|-----------------:|
-| [eos_20210310_10_days_liq_12%25_adg_5%25](https://github.com/JohnKearney1/PassivBot-Configurations/tree/main/v2.0.0/bybit/EOSUSD/eos_20210310_10_days_liq_12%25_adg_5%25) |    2021-03-11T10:00 start with	12.11   |  |
+| [eos_20210310_10_days_liq_12%_adg_5%](https://github.com/JohnKearney1/PassivBot-Configurations/tree/main/v2.0.0/bybit/EOSUSD/eos_20210310_10_days_liq_12%25_adg_5%25) |    2021-03-11T10:00 start with	12.11   |  |
