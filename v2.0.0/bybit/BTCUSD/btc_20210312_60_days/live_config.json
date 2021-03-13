@@ -1,0 +1,35 @@
+{
+    "config_name": "btc_20210312",
+    "symbol": "BTCUSD",
+    "logging_level": 0,
+    "cross_mode": true,
+    "balance_pct": 0.33,
+    "ddown_factor": 0.54,
+    "entry_qty_pct": 0.15711,
+    "min_close_qty_multiplier": 0.46,
+    "leverage": 38.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 21.0,
+    "grid_spacing": 0.00319,
+    "grid_coefficient": 219.49,
+    "min_markup": 0.00065,
+    "max_markup": 0.01493,
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": true,
+        "funding_fee_collect_mode": false,
+        "ohlcv_rsi": {
+            "n_periods": 21,
+            "period_ms": 1800000
+        },
+        "tick_ema": {
+            "span": 73441.0,
+            "spread": 0.016
+        }
+    },
+    "market_stop_loss": false,
+    "stop_loss_liq_diff": 0.1168,
+    "stop_loss_pos_price_diff": 0.877,
+    "stop_loss_pos_reduction": 0.036,
+    "key": "32912cca036128c8ba0f161a295c48ef6a56e9f4a711ede2a7210f42a2f5bca9"
+}
