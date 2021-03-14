@@ -1,4 +1,5 @@
 ### Python ###
+## This File designates ignored files for committing contributors. It is not relevant to the usage of the bot.
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
