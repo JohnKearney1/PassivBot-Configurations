@@ -41,7 +41,7 @@ To find configurations for your version of PassivBot, check the associated *majo
 
 To submit the live performance results of a backtested configuration, utilize [this template spreadsheet](https://docs.google.com/spreadsheets/d/1CulOl_UiXZWFxZi4FX844FBmdeonEzYK7hqiKxFtDc8/edit?usp=sharing). Please submit the completed `.xlsx`, and optionally include a link to a [Google Sheets](https://docs.google.com/spreadsheets/d/1CulOl_UiXZWFxZi4FX844FBmdeonEzYK7hqiKxFtDc8/edit?usp=sharing) view.
 
-For an example of what the functioning spreadsheet looks like, [click here!](https://docs.google.com/spreadsheets/d/15WnAvUMhZhNwKNg_GeHyipr9PuDaMjAmMEiIfcoDDMA/edit?usp=sharing)
+For an example of what the functioning spreadsheet looks like, [click here!](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRHWbAfI-XeOPhtyz84ifIIh76q4qlbSb1FdmITiC_Z2txaH-LiiEqvOfwBgEOTOPYSa_l9hA8_tYoi/pubhtml#)
 
 If you would like to simply upload the end result of your test, not the entire test data, use the formatting below, or share the appropriate data with us!
 
