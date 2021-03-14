@@ -22,7 +22,7 @@ Special Thanks to @enarjord (https://github.com/enarjord)
 # Some live run results
 The detail of each live run can be found on the corresponding config links.
 ## Binance
-|    Config        |  Start balance |   End balance  |
+|    Config        |  Start balance |   End balance  |   Comment   |
 |------------------|:--------------:|-----------------:|
 | [ada_20210309_20_days_liq_18%_adg_8%](https://github.com/JohnKearney1/PassivBot-Configurations/blob/main/v2.0.0/binance/ADAUSDT/ada_20210309_20_days_liq_18%25_adg_8%25) |    2021-03-10T16:46 start with	107.67      |  |
 | [ltc_20210309_20_days_liq_10.5%_adg_15.5%](https://github.com/JohnKearney1/PassivBot-Configurations/blob/main/v2.0.0/binance/LTCUSDT/ltc_20210309_20_days_liq_10.5%25_adg_15.5%25) |    2021-03-11T22:30 start with	100.00    |  |
@@ -31,9 +31,9 @@ The detail of each live run can be found on the corresponding config links.
 | [19_day_nostops_closest_liq_10%_adg_36%](https://github.com/JohnKearney1/PassivBot-Configurations/tree/main/v2.0.0/binance/LITUSDT/19_day_nostops_closest_liq_10%25_adg_36%25) |    2021-03-11T22:30 start with	100.00   |  |
 
 ## Bybit
-|    Config        |  Start balance |   End balance  |
+|    Config        |  Start balance |   End balance   |   Comment   |
 |------------------|:--------------:|-----------------:|
-| [eos_20210310_10_days_liq_12%_adg_5%](https://github.com/JohnKearney1/PassivBot-Configurations/tree/main/v2.0.0/bybit/EOSUSD/eos_20210310_10_days_liq_12%25_adg_5%25) |    2021-03-11T10:00 start with	12.11   |  |
-| [btc_20210312_60_days_liq_12.9%_adg_3.7%](https://github.com/JohnKearney1/PassivBot-Configurations/blob/main/v2.0.0/bybit/BTCUSD/btc_20210312_60_days_liq_12.9%25_adg_3.7%25) |    2021-03-13T10:12 start with	0.00100037   |  |
+| [eos_20210310_10_days_liq_12%_adg_5%](https://github.com/JohnKearney1/PassivBot-Configurations/tree/main/v2.0.0/bybit/EOSUSD/eos_20210310_10_days_liq_12%25_adg_5%25) |    2021-03-11T10:00 start with	12.11   | 2021-03-14T09:53 End with 9.07 | Not stable |
+| [btc_20210312_60_days_liq_12.9%_adg_3.7%](https://github.com/JohnKearney1/PassivBot-Configurations/blob/main/v2.0.0/bybit/BTCUSD/btc_20210312_60_days_liq_12.9%25_adg_3.7%25) |    2021-03-13T10:12 start with	0.00100037   |  |  |
 
 
