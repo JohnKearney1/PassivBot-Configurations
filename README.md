@@ -61,5 +61,5 @@ If you would like to simply upload the end result of your test, not the entire t
 #### Bybit Live Results
 |    Config        |  Start balance |   End balance   |   Comment   |
 |------------------|:--------------:|-----------------:|-----------------:|
-| [eos_20210310_10_days_liq_12%_adg_5%](https://github.com/JohnKearney1/PassivBot-Configurations/tree/main/v2.0.0/bybit/EOSUSD/eos_20210310_10_days_liq_12%25_adg_5%25) |    2021-03-11T10:00 start with	12.11   | 2021-03-14T09:53 End with 9.07 | Not stable |
-| [btc_20210312_60_days_liq_12.9%_adg_3.7%](https://github.com/JohnKearney1/PassivBot-Configurations/blob/main/v2.0.0/bybit/BTCUSD/btc_20210312_60_days_liq_12.9%25_adg_3.7%25) |    2021-03-13T10:12 start with	0.00100037   | 2021-03-16T10:00  with	0.00097793 |  |
+| [eos_20210310_10_days_liq_12%_adg_5%](https://github.com/JohnKearney1/PassivBot-Configurations/tree/main/v2.0.0/bybit/EOSUSD/eos_20210310_10_days_liq_12%25_adg_5%25) |    2021-03-11T10:00 start with	12.11   | 2021-03-14T09:53 end with 9.07 | Not stable |
+| [btc_20210312_60_days_liq_12.9%_adg_3.7%](https://github.com/JohnKearney1/PassivBot-Configurations/blob/main/v2.0.0/bybit/BTCUSD/btc_20210312_60_days_liq_12.9%25_adg_3.7%25) |    2021-03-13T10:12 start with	0.00100037   | 2021-03-16T10:00 end with	0.00097793 | profit too low  |
