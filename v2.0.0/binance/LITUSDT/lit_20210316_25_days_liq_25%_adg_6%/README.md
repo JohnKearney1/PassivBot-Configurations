@@ -1,3 +1,4 @@
+* This config was found by PSO algorithm
 # live run result
 |    Datetime      | Wallet balance |      Comment     |
 |------------------|:--------------:|-----------------:|
