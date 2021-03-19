@@ -1,0 +1,30 @@
+{
+    "config_name": "lit_20210318",
+    "symbol": "LITUSDT",
+    "logging_level": 0,
+    "cross_mode": true,
+    "balance_pct": 0.7342351199925412,
+    "ddown_factor": 4.260373654692501,
+    "entry_qty_pct": 0.19726008149988705,
+    "min_close_qty_multiplier": 0.9394235017014978,
+    "leverage": 6.423844273670511,
+    "n_entry_orders": 8,
+    "n_close_orders": 15.742805119856712,
+    "grid_spacing": 0.00617256137118781,
+    "grid_coefficient": 65.79723096016824,
+    "min_markup": 0.0005599731295548595,
+    "max_markup": 0.0021616616630599494,
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": true,
+        "funding_fee_collect_mode": false,
+        "tick_ema": {
+            "span": 53750.27858963609,
+            "spread": 0.0013772262882230102
+        }
+    },
+    "market_stop_loss": false,
+    "stop_loss_liq_diff": 0.1117917925383882,
+    "stop_loss_pos_price_diff": 14.543924368865826,
+    "stop_loss_pos_reduction": 0.2883133927809919
+}
