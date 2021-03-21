@@ -56,7 +56,7 @@ If you would like to simply upload the end result of your test, not the entire t
 | [ltc_20210309_20_days_liq_10.5%_adg_15.5%](https://github.com/JohnKearney1/PassivBot-Configurations/blob/main/v2.0.0/binance/LTCUSDT/ltc_20210309_20_days_liq_10.5%25_adg_15.5%25) |    2021-03-11T22:30 start with	100.00    |  | |
 | [dot_20210309_20_days_liq_10%_adg_8%](https://github.com/JohnKearney1/PassivBot-Configurations/blob/main/v2.0.0/binance/DOTUSDT/dot_20210309_20_days_liq_10%25_adg_8%25) |    2021-03-10T12:31 start with	110.62   |  | |
 | [sxp_20210309_20_days_liq_10%_adg_21%](https://github.com/JohnKearney1/PassivBot-Configurations/blob/main/v2.0.0/binance/SXPUSDT/sxp_20210309_20_days_liq_10%25_adg_21%25) |    2021-03-10T17:30 start with	100.00   |  | |
-| [19_day_nostops_closest_liq_10%_adg_36%](https://github.com/JohnKearney1/PassivBot-Configurations/tree/main/v2.0.0/binance/LITUSDT/19_day_nostops_closest_liq_10%25_adg_36%25) |    2021-03-11T22:30 start with	100.00   |  | |
+| [19_day_nostops_closest_liq_10%_adg_36%](https://github.com/JohnKearney1/PassivBot-Configurations/tree/main/v2.0.0/binance/LITUSDT/19_day_nostops_closest_liq_10%25_adg_36%25) |    2021-03-11T22:30 start with	100.00   |2021-03-21T20:00 end with	54.14 | drawdown too high |
 
 #### Bybit Live Results
 |    Config        |  Start balance |   End balance   |   Comment   |
