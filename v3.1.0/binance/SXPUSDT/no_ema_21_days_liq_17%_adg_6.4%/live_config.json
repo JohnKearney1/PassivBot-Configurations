@@ -1,0 +1,23 @@
+{
+    "config_name": "session_001_no_ema",
+    "symbol": "SXPUSDT",
+    "logging_level": 0,
+    "cross_mode": true,
+    "balance_pct": 0.333,
+    "ddown_factor": 1.532,
+    "entry_qty_pct": 0.042,
+    "close_qty_pct": 0.042,
+    "leverage": 27.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 14.0,
+    "grid_spacing": 0.00283,
+    "grid_coefficient": 354.48,
+    "min_markup": 0.00133,
+    "max_markup": 0.0032,
+    "do_long": true,
+    "do_shrt": true,
+    "funding_fee_collect_mode": false,
+    "ema_span": 1.0,
+    "ema_spread": 0.0,
+    "key": "90e02c8c8c5fa446098c324501ee33292b05d7448d296a7a50dc07a03ee93526"
+}
