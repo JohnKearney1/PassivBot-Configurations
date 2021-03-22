@@ -1,5 +1,5 @@
 {
-    "config_name": "session_001_no_ema",
+    "config_name": "no_ema_2021-03-22",
     "symbol": "SXPUSDT",
     "logging_level": 0,
     "cross_mode": true,
