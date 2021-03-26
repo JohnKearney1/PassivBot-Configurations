@@ -1,0 +1,101 @@
+{
+    "session_name": "session_EOSUSDT",
+    "exchange": "binance",
+    "user": "frederic_oudry",
+    "symbol": "EOSUSDT",
+    "n_days": 60.000010439814815,
+    "latency_simulation_ms": 750,
+    "starting_balance": 30,
+    "sliding_window_size": 1,
+    "sliding_window_step": 0.15,
+    "do_long": true,
+    "do_shrt": true,
+    "ranges": {
+        "qty_pct": [
+            0.0,
+            1.0,
+            1e-05
+        ],
+        "ddown_factor": [
+            0.0,
+            4,
+            0.001
+        ],
+        "grid_coefficient": [
+            0.0,
+            600,
+            0.01
+        ],
+        "grid_spacing": [
+            0.0002,
+            0.06,
+            1e-05
+        ],
+        "leverage": [
+            2,
+            75,
+            1
+        ],
+        "markup_range": [
+            0,
+            0.03,
+            1e-05
+        ],
+        "min_markup": [
+            0.0005,
+            0.01,
+            1e-05
+        ],
+        "n_close_orders": [
+            1,
+            20,
+            1
+        ],
+        "ema_span": [
+            1,
+            600000,
+            1
+        ],
+        "ema_spread": [
+            0.0,
+            0.03,
+            0.0001
+        ]
+    },
+    "inverse": false,
+    "maker_fee": 0.00018,
+    "taker_fee": 0.00036,
+    "max_leverage": 75,
+    "min_qty": 0.1,
+    "min_cost": 5.0,
+    "qty_step": 0.1,
+    "price_step": 0.001,
+    "session_dirpath": "plots/binance/EOSUSDT/60_days_2021-03-26T173641/",
+    "ddown_factor": 1.1750714831256592,
+    "ema_span": 195409.41128436947,
+    "ema_spread": 0.0036981055468041923,
+    "grid_coefficient": 73.213355003988,
+    "grid_spacing": 0.01697359332585411,
+    "leverage": 35.23769330796861,
+    "markup_range": 0.028473994618335274,
+    "min_markup": 0.007160728721714986,
+    "n_close_orders": 13.306713422433825,
+    "qty_pct": 0.01066138738100042,
+    "net_pnl_plus_fees": 572.6240443060003,
+    "profit_sum": 597.8509000000004,
+    "loss_sum": 0.0,
+    "fee_sum": -25.226855693999983,
+    "final_equity": 580.2946443060004,
+    "gain": 19.343154810200012,
+    "max_drawdown": 2.020341938536404,
+    "average_daily_gain": 1.050611422055877,
+    "closest_liq": 0.06352048437906632,
+    "n_fills": 1977,
+    "n_closes": 1203,
+    "n_reentries": 182,
+    "n_stop_losses": 0,
+    "biggest_pos_size": 533.5,
+    "max_n_hours_stuck": 67.64623388888889,
+    "seconds_elapsed": 25.272650241851807,
+    "key": "dd566ffa48a5ef704fe4390c879b49b91ea8e9fa72cf0578e3c43a3dcb3001e1"
+}
