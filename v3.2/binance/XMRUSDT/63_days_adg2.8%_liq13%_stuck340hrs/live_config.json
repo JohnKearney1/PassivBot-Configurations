@@ -1,5 +1,5 @@
 {
-   "config_name": "long_stuck",
+   "config_name": "stuck_longtime",
    "symbol": "XMRUSDT",
    "logging_level": 0,
    "ddown_factor": 3.408,
