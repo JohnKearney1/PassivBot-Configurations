@@ -1,0 +1,19 @@
+{
+    "config_name": "session_sxp",
+    "symbol": "SXPUSDT",
+    "logging_level": 0,
+    "ddown_factor": 3.1739019887610205,
+    "qty_pct": 0.023775536221042337,
+    "leverage": 28.5131573830174,
+    "n_entry_orders": 8,
+    "n_close_orders": 8.280204601931445,
+    "grid_spacing": 0.040070508217933405,
+    "grid_coefficient": 30.486267610994716,
+    "min_markup": 0.0071566185695211785,
+    "markup_range": 0.02781987144477374,
+    "do_long": true,
+    "do_shrt": true,
+    "ema_span": 158922.2106801076,
+    "ema_spread": 0.02467399577471438,
+    "key": "9e8bc441b777711e688b9859edfb9308d17552b2f66a8d3f78ba576f82614a4f"
+}
