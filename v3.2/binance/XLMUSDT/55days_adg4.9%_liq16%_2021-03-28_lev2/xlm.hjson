@@ -1,0 +1,37 @@
+{
+  session_name: session_001_liq15%
+  exchange: binance
+  user: e
+  symbol: XLMUSDT
+  n_days: 55
+  latency_simulation_ms: 750
+  starting_balance: 30.0
+
+  # set sliding window size to 1.0 to do only one backtest for whole period
+  sliding_window_size: 1.0
+  sliding_window_step: 0.15
+
+  iters: 200
+
+  # pso options
+  options: {"c1": 1.2, "c2": 1.2, "w": 0.9, "k": 3, "p": 2}
+
+  n_particles: 20
+
+  do_long: true
+  do_shrt: true
+
+  ranges:
+  {
+    qty_pct: [0.0, 0.5, 1e-05]
+    ddown_factor: [0, 3.5, 0.001]
+    grid_coefficient: [0, 400, 0.01]
+    grid_spacing: [0.0002, 0.04, 1e-05]
+    leverage: [2, 999999, 1]
+    markup_range: [0.0, 0.03, 1e-05]
+    min_markup: [0.0005, 0.02, 1e-05]
+    n_close_orders: [1, 20, 1]
+    ema_span: [1.0, 600000.0, 1.0]
+    ema_spread: [0.0, 0.025, 0.0001]
+  }
+}
