@@ -5,5 +5,6 @@
 | 2021-03-27T10:16 |     24.60      |  adg since start 1.48%   |
 | 2021-03-28T09:54 |     24.79      |  adg since start 1.11%   |
 | 2021-03-29T09:49 |     25.53      |  adg since start 1.81%   |
+| 2021-03-30T10:24 |     25.69      |  adg since start 1.48%   |
 
 
