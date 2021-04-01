@@ -16,7 +16,7 @@ Files are stored correspondent to their version. Each sub-folder represents a si
 
 ### Backtest Results
 
-When submitting backtest results, you should commit the raw folder or [Email Me](mailto:john@kearneyjohn.com) a .zip archive of the information. These are some of the files we like you to include:
+When submitting backtest results, you should commit the raw folder in a pull request. These are some of the files we like you to include:
 
 - `average_daily_gain_plot.png` (**Required**)
 - `backtest_1of7.png` (Suggested)
@@ -33,9 +33,9 @@ When submitting backtest results, you should commit the raw folder or [Email Me]
 - `pnlcumsum_plot.png` (**Required**)
 - `pos_sizes_plot.png` (**Required**)
 - `whole_backtest.png` (**Required**)
-- `/backtest_trades/` (Do Not Include)
+- `/backtest_trades/` (Optional)
 
-To find configurations for your version of PassivBot, check the associated *major* version number, and find the subfolder for your exchange. Configurations are in folders labeled by the traded asset or symbol, and subfolders contain individual backtests. These backtest subfolders can be named anything you like, so long as it is descriptive. Example: `dot_20210309_20_days_liq_10%_adg_8%`.
+To find configurations for your version of PassivBot, check the associated version number, and find the subfolder for your exchange. Some major versions (ex. v3.1 & v3.3) may not use the same configurations, so keep track of your version! Configurations are in folders labeled by the traded asset or symbol, and subfolders contain individual backtests. These backtest subfolders can be named anything you like, so long as it is descriptive. Example: `dot_20210309_20_days_liq_10%_adg_8%`.
 
 ### Live Results
 
