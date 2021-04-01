@@ -1,0 +1,18 @@
+{
+    "config_name": "session_001_with_ema_Long_only",
+    "symbol": "XMRUSDT",
+    "logging_level": 0,
+    "ddown_factor": 1.109,
+    "qty_pct": 0.84919,
+    "leverage": 5.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 9.0,
+    "grid_spacing": 0.01819,
+    "grid_coefficient": 144.26,
+    "min_markup": 0.00649,
+    "markup_range": 0.00355,
+    "do_long": true,
+    "do_shrt": false,
+    "ema_span": 46775.0,
+    "ema_spread": 0.0276
+}
