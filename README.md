@@ -5,7 +5,7 @@ Use at your own risk! Some configurations may have backtest data, some may not.
 
 This repository depends upon [Passivbot_futures](https://github.com/enarjord/passivbot_futures) by [@enarjord](https://github.com/enarjord/passivbot_futures/wiki).
 
-Message me on [Telegram](https://t.me/JohnKearney1) or [Email Me](mailto:john@kearneyjohn.com) for repository access or to submit backtest data / live results. Please see the Formatting section for information on how to submit information.
+Message me for repository access, or to submit backtest data / live results open a pull request. Please see the Formatting section for information on how to submit configurations.
 
 Thanks to [@bingining](https://github.com/bingining) and [@enarjord](https://github.com/enarjord) for contributing and helping maintain this repository!
 
