@@ -5,5 +5,6 @@
 | 2021-03-30T10:19 |     21.84      |  adg since start: 4% |
 | 2021-03-31T09:32 |     22.34      |  adg since start: 3.2% |
 | 2021-04-01T12:56 |     23.14	    |  adg since start: 3.19% |
+| 2021-04-03T09:27 |     24.28	    |  adg since start: 2.98%.  stuck in a shrt pos, liq 31% away |
 
 
