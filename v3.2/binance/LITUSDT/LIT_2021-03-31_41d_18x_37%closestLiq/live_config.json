@@ -1,0 +1,18 @@
+{
+    "config_name": "lit_session_002_long_only_with_ema",
+    "symbol": "LITUSDT",
+    "logging_level": 0,
+    "ddown_factor": 2.155,
+    "qty_pct": 0.67685,
+    "leverage": 4.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 9.0,
+    "grid_spacing": 0.05838,
+    "grid_coefficient": 278.44,
+    "min_markup": 0.00185,
+    "markup_range": 0.02072,
+    "do_long": true,
+    "do_shrt": false,
+    "ema_span": 3395.0,
+    "ema_spread": 0.026
+}

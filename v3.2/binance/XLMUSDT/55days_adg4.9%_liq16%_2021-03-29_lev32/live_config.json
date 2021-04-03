@@ -1,0 +1,18 @@
+{
+    "config_name": "55days_adg4.9%_liq16%_2021-03-29",
+    "symbol": "XLMUSDT",
+    "logging_level": 0,
+    "ddown_factor": 0.612,
+    "qty_pct": 0.01991,
+    "leverage": 32.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 17.0,
+    "grid_spacing": 0.02231,
+    "grid_coefficient": 82.13,
+    "min_markup": 0.01151,
+    "markup_range": 0.01198,
+    "do_long": true,
+    "do_shrt": true,
+    "ema_span": 536785.0,
+    "ema_spread": 0.0011
+}

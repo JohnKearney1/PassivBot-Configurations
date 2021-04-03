@@ -1,0 +1,18 @@
+{
+    "config_name": "session_EOSUSDT",
+    "symbol": "EOSUSDT",
+    "logging_level": 0,
+    "ddown_factor": 1.175,
+    "qty_pct": 0.01066,
+    "leverage": 35.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 13.0,
+    "grid_spacing": 0.01697,
+    "grid_coefficient": 73.21,
+    "min_markup": 0.00716,
+    "markup_range": 0.02847,
+    "do_long": true,
+    "do_shrt": true,
+    "ema_span": 195409.0,
+    "ema_spread": 0.0037
+}

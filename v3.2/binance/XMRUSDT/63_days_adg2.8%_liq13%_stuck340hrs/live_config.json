@@ -1,0 +1,18 @@
+{
+   "config_name": "stuck_longtime",
+   "symbol": "XMRUSDT",
+   "logging_level": 0,
+   "ddown_factor": 3.408,
+   "qty_pct": 0.13313,
+   "leverage": 11.0,
+   "n_entry_orders": 8,
+   "n_close_orders": 11.0,
+   "grid_spacing": 0.00546,
+   "grid_coefficient": 406.74,
+   "min_markup": 0.0108,
+   "markup_range": 0.02078,
+   "do_long": true,
+   "do_shrt": true,
+   "ema_span": 413784.0,
+   "ema_spread": 0.0211
+}

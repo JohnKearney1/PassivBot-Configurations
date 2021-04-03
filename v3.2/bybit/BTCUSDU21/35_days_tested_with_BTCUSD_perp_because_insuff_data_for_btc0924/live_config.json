@@ -1,0 +1,18 @@
+{
+   "config_name": "35_day_first_test_bybit_hedge_BTCUSD0924",
+   "symbol": "BTCUSDU21",
+   "logging_level": 0,
+   "ddown_factor": 0.949,
+   "qty_pct": 0.03468,
+   "leverage": 41.0,
+   "n_entry_orders": 8,
+   "n_close_orders": 16.0,
+   "grid_spacing": 0.01259,
+   "grid_coefficient": 85.14,
+   "min_markup": 0.0078,
+   "markup_range": 0.02972,
+   "do_long": true,
+   "do_shrt": true,
+   "ema_span": 150673.0,
+   "ema_spread": 0.0161
+}
