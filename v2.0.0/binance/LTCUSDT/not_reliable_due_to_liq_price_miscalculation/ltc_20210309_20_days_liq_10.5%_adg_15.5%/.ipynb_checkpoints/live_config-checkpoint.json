@@ -1,0 +1,31 @@
+{
+    "config_name": "ltc_20210309",
+    "symbol": "LTCUSDT",
+    "logging_level": 0,
+    "cross_mode": true,
+    "balance_pct": 0.242,
+    "ddown_factor": 2.759,
+    "entry_qty_pct": 0.1392,
+    "min_close_qty_multiplier": 0.0,
+    "leverage": 22.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 18.0,
+    "grid_spacing": 0.00091,
+    "grid_coefficient": 95.22,
+    "min_markup": 0.00153,
+    "max_markup": 0.00302,
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": true,
+        "funding_fee_collect_mode": false,
+        "tick_ema": {
+            "span": 38195.0,
+            "spread": 0.0094
+        }
+    },
+    "market_stop_loss": false,
+    "stop_loss_liq_diff": 0.0765,
+    "stop_loss_pos_price_diff": 0.1227,
+    "stop_loss_pos_reduction": 0.133,
+    "key": "5af18190b08449716ee8999d0590c03a51f2e4a42695a25e1fc88af0ee8b8808"
+}
