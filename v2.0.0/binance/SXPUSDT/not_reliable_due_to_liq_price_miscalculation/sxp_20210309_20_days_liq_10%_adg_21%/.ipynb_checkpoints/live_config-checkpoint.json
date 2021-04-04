@@ -1,0 +1,31 @@
+{
+    "config_name": "sxp_20210309",
+    "symbol": "SXPUSDT",
+    "logging_level": 0,
+    "cross_mode": true,
+    "balance_pct": 0.369,
+    "ddown_factor": 2.494,
+    "entry_qty_pct": 0.1373,
+    "min_close_qty_multiplier": 0.7,
+    "leverage": 15.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 14.0,
+    "grid_spacing": 0.00048,
+    "grid_coefficient": 267.38,
+    "min_markup": 0.00168,
+    "max_markup": 0.0065,
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": true,
+        "funding_fee_collect_mode": false,
+        "tick_ema": {
+            "span": 19323.0,
+            "spread": 0.0164
+        }
+    },
+    "market_stop_loss": false,
+    "stop_loss_liq_diff": 0.0408,
+    "stop_loss_pos_price_diff": 0.1374,
+    "stop_loss_pos_reduction": 0.086,
+    "key": "d83a4c8936e6ed40d7aa696e5ba849a986a4648e191152abbbcd7400d67801e3"
+}
