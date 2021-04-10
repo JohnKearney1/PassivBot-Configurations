@@ -1,0 +1,19 @@
+gain 101.14%
+average_daily_gain percentage 0.70%
+closest liq 27.8687%
+max n hours between consecutive trades 54.07
+max_drawdown 0.0
+n trades/day 27.41
+net pnl plus fees 0.008091
+profit sum 0.004408
+loss sum 0.000000
+fee sum 0.003683
+gain 101.14%
+n_days 100
+n trades 2741
+n trades/day 27.41
+n reentries 53
+n stop loss closes 0
+biggest_pos_size 1243.0
+starting balance 0.008
+long: True, short: False
