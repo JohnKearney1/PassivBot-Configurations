@@ -1,0 +1,19 @@
+{
+    "config_name": "ethlol",
+    "symbol": "ETHUSD",
+    "logging_level": 0,
+    "ddown_factor": 2.388,
+    "qty_pct": 0.0493,
+    "leverage": 34.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 12.0,
+    "grid_spacing": 0.00123,
+    "grid_coefficient": 565.15,
+    "min_markup": 0.00428,
+    "markup_range": 0.01348,
+    "do_long": true,
+    "do_shrt": false,
+    "ema_span": 24941.0,
+    "ema_spread": 0.0038,
+    "key": "318d5569cfcb4a12dc55ffeb13af3cbee56bc59f883e111f22f753bd7985c638"
+}

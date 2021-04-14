@@ -1,0 +1,101 @@
+{
+    "session_name": "runelol",
+    "exchange": "binance",
+    "user": "pxiphon",
+    "symbol": "RUNEUSDT",
+    "n_days": 29.99998863425926,
+    "latency_simulation_ms": 20,
+    "starting_balance": 30,
+    "sliding_window_size": 1,
+    "sliding_window_step": 0.15,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "qty_pct": [
+            0.0,
+            1.0,
+            1e-05
+        ],
+        "ddown_factor": [
+            0.0,
+            4,
+            0.001
+        ],
+        "grid_coefficient": [
+            0.0,
+            600,
+            0.01
+        ],
+        "grid_spacing": [
+            0.0002,
+            0.06,
+            1e-05
+        ],
+        "leverage": [
+            2,
+            50,
+            1
+        ],
+        "markup_range": [
+            0,
+            0.03,
+            1e-05
+        ],
+        "min_markup": [
+            0.0005,
+            0.01,
+            1e-05
+        ],
+        "n_close_orders": [
+            1,
+            20,
+            1
+        ],
+        "ema_span": [
+            1,
+            600000,
+            1
+        ],
+        "ema_spread": [
+            0.0,
+            0.05,
+            0.0001
+        ]
+    },
+    "inverse": false,
+    "maker_fee": 0.00018,
+    "taker_fee": 0.00036,
+    "max_leverage": 50,
+    "min_qty": 1.0,
+    "min_cost": 5.0,
+    "qty_step": 1.0,
+    "price_step": 0.0001,
+    "session_dirpath": "plots\\binance\\RUNEUSDT\\30_days_2021-04-13T033856\\",
+    "ddown_factor": 1.9635227097786974,
+    "ema_span": 90995.22727344386,
+    "ema_spread": 0.03676739856642458,
+    "grid_coefficient": 363.03538282827844,
+    "grid_spacing": 0.027822767853616343,
+    "leverage": 8.637557608401373,
+    "markup_range": 0.005733125963698987,
+    "min_markup": 0.00594806099512425,
+    "n_close_orders": 19.596598691400864,
+    "qty_pct": 0.858518396998522,
+    "net_pnl_plus_fees": 261.40452841,
+    "profit_sum": 278.26930000000004,
+    "loss_sum": 0.0,
+    "fee_sum": -16.864771590000004,
+    "final_equity": 291.40452840999984,
+    "gain": 9.713484280333327,
+    "max_drawdown": 0.018126151367109676,
+    "average_daily_gain": 1.0787293964686773,
+    "closest_liq": 0.12880980160421446,
+    "n_fills": 146,
+    "n_closes": 92,
+    "n_reentries": 1,
+    "n_stop_losses": 0,
+    "biggest_pos_size": 204.0,
+    "max_n_hours_stuck": 17.664262222222224,
+    "seconds_elapsed": 9.487034320831299,
+    "key": "4b1dbca92aef34073aeb70dd2bbb78f7a2e169216c9e5c7968666a6e41d144be"
+}

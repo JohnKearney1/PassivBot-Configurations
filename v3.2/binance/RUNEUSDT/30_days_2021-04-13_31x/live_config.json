@@ -1,0 +1,18 @@
+{
+    "config_name": "runelol",
+    "symbol": "RUNEUSDT",
+    "logging_level": 0,
+    "ddown_factor": 1.016,
+    "qty_pct": 0.84991,
+    "leverage": 15.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 19.0,
+    "grid_spacing": 0.04665,
+    "grid_coefficient": 174.06,
+    "min_markup": 0.00318,
+    "markup_range": 0.00689,
+    "do_long": true,
+    "do_shrt": false,
+    "ema_span": 1508.0,
+    "ema_spread": 0.0105
+}

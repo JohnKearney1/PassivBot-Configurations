@@ -1,0 +1,18 @@
+{
+    "config_name": "solanalol",
+    "symbol": "SOLUSDT",
+    "logging_level": 0,
+    "ddown_factor": 0.169,
+    "qty_pct": 0.31241,
+    "leverage": 22.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 13.0,
+    "grid_spacing": 0.01988,
+    "grid_coefficient": 454.56,
+    "min_markup": 0.007,
+    "markup_range": 0.00151,
+    "do_long": true,
+    "do_shrt": false,
+    "ema_span": 62458.0,
+    "ema_spread": 0.0385
+}

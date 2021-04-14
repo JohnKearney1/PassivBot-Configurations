@@ -1,0 +1,101 @@
+{
+    "session_name": "ethlol",
+    "exchange": "bybit",
+    "user": "kjohn-bybit",
+    "symbol": "ETHUSD",
+    "n_days": 40.00003403935185,
+    "latency_simulation_ms": 20,
+    "starting_balance": 100,
+    "sliding_window_size": 1,
+    "sliding_window_step": 0.15,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "qty_pct": [
+            0.0,
+            1.0,
+            1e-05
+        ],
+        "ddown_factor": [
+            0.0,
+            4,
+            0.001
+        ],
+        "grid_coefficient": [
+            0.0,
+            600,
+            0.01
+        ],
+        "grid_spacing": [
+            0.0002,
+            0.06,
+            1e-05
+        ],
+        "leverage": [
+            2,
+            50,
+            1
+        ],
+        "markup_range": [
+            0,
+            0.03,
+            1e-05
+        ],
+        "min_markup": [
+            0.0005,
+            0.01,
+            1e-05
+        ],
+        "n_close_orders": [
+            1,
+            20,
+            1
+        ],
+        "ema_span": [
+            1,
+            600000,
+            1
+        ],
+        "ema_spread": [
+            0.0,
+            0.04,
+            0.0001
+        ]
+    },
+    "inverse": true,
+    "maker_fee": -0.00025,
+    "taker_fee": 0.00075,
+    "max_leverage": 50,
+    "min_qty": 1.0,
+    "min_cost": 0.0,
+    "qty_step": 1.0,
+    "price_step": 0.05,
+    "session_dirpath": "plots\\bybit\\ETHUSD\\40_days_2021-04-13T132741\\",
+    "ddown_factor": 2.42673058984505,
+    "ema_span": 48292.66914943978,
+    "ema_spread": 0.02719762365232034,
+    "grid_coefficient": 389.0905520474121,
+    "grid_spacing": 0.0010935920732521795,
+    "leverage": 30.565050083025767,
+    "markup_range": 0.004960887388715307,
+    "min_markup": 0.00856613858655072,
+    "n_close_orders": 7.231976472316049,
+    "qty_pct": 0.2631459894543866,
+    "net_pnl_plus_fees": 411.0672012113739,
+    "profit_sum": 388.35209716990005,
+    "loss_sum": 0.0,
+    "fee_sum": 22.715104041473726,
+    "final_equity": 511.0672012113739,
+    "gain": 5.1106720121137394,
+    "max_drawdown": 0.0008018735546616969,
+    "average_daily_gain": 1.0416262959839806,
+    "closest_liq": 0.08599516182775699,
+    "n_fills": 46,
+    "n_closes": 23,
+    "n_reentries": 0,
+    "n_stop_losses": 0,
+    "biggest_pos_size": 8093916.0,
+    "max_n_hours_stuck": 58.22756972222222,
+    "seconds_elapsed": 13.488996982574463,
+    "key": "522e9682fd711f1c91fe754973e529326cf09385d4c54fab78b6e498104686dc"
+}

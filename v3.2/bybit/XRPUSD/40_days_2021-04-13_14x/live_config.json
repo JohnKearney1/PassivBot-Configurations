@@ -1,0 +1,19 @@
+{
+    "config_name": "exarpeelol",
+    "symbol": "XRPUSD",
+    "logging_level": 0,
+    "ddown_factor": 1.946,
+    "qty_pct": 0.18551,
+    "leverage": 18.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 2.0,
+    "grid_spacing": 0.02977,
+    "grid_coefficient": 566.39,
+    "min_markup": 0.00605,
+    "markup_range": 0.00797,
+    "do_long": true,
+    "do_shrt": false,
+    "ema_span": 102494.0,
+    "ema_spread": 0.0073,
+    "key": "6b365f1338344ada318389e96ed487f1118ff241ea7b967b6ce32fb49342b019"
+}
