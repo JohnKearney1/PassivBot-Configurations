@@ -1,0 +1,103 @@
+{
+    "session_name": "session_003_with_ema",
+    "exchange": "binance",
+    "user": "db1",
+    "symbol": "BNBUSDT",
+    "latency_simulation_ms": 50,
+    "starting_balance": 30,
+    "do_long": true,
+    "do_shrt": false,
+    "leverage": 12,
+    "n_close_orders": 16,
+    "iters": 100,
+    "num_cpus": 3,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 24,
+    "minimum_liquidation_distance": 0.5,
+    "maximum_daily_entries": 10,
+    "start_date": "2021-01-11T21:30",
+    "end_date": -1,
+    "ranges": {
+        "qty_pct": [
+            0.0,
+            0.5,
+            0.0001
+        ],
+        "ddown_factor": [
+            0.0,
+            3.5,
+            0.05
+        ],
+        "grid_coefficient": [
+            0.0,
+            400,
+            0.1
+        ],
+        "grid_spacing": [
+            0.0002,
+            0.02,
+            0.0001
+        ],
+        "markup_range": [
+            0,
+            0.02,
+            0.0001
+        ],
+        "min_markup": [
+            0.0005,
+            0.012,
+            1e-05
+        ],
+        "ema_span": [
+            1,
+            60000,
+            10
+        ],
+        "ema_spread": [
+            0.0,
+            0.0075,
+            0.0001
+        ]
+    },
+    "inverse": false,
+    "maker_fee": 0.00018,
+    "taker_fee": 0.00036,
+    "max_leverage": 75,
+    "min_qty": 0.01,
+    "min_cost": 5.0,
+    "qty_step": 0.01,
+    "price_step": 0.001,
+    "session_dirpath": "plots/binance/BNBUSDT/91.6_days_2021-04-14T182040/",
+    "n_days": 91.58379085648149,
+    "ddown_factor": 1.7,
+    "ema_span": 30.0,
+    "ema_spread": 0.0004,
+    "grid_coefficient": 194.2,
+    "grid_spacing": 0.0187,
+    "markup_range": 0.0113,
+    "min_markup": 0.003,
+    "qty_pct": 0.1636,
+    "break_on": {},
+    "net_pnl_plus_fees": 10009.151549508038,
+    "profit_sum": 11378.026020000045,
+    "loss_sum": 0.0,
+    "fee_sum": -1368.8744704920007,
+    "final_equity": 10038.16530950804,
+    "gain": 334.60551031693467,
+    "max_drawdown": 0.0050535566436370385,
+    "average_daily_gain": 1.065529020937017,
+    "closest_liq": 0.5077080464425999,
+    "n_fills": 2247,
+    "n_entries": 1124,
+    "n_closes": 1123,
+    "n_reentries": 0,
+    "n_stop_losses": 0,
+    "biggest_pos_size": 30.82,
+    "max_n_hours_stuck": 25.973340555555556,
+    "seconds_elapsed": 273.90150713920593,
+    "key": "48ef88834e0433ee9094702c2e254e426ac0ab5a3d8f86c0807b78c0459110df"
+}

@@ -1,0 +1,18 @@
+{
+    "config_name": "session_003_with_ema",
+    "logging_level": 0,
+    "ddown_factor": 1.7,
+    "qty_pct": 0.1636,
+    "leverage": 12,
+    "n_entry_orders": 8,
+    "n_close_orders": 16,
+    "grid_spacing": 0.0187,
+    "grid_coefficient": 194.2,
+    "min_markup": 0.003,
+    "markup_range": 0.0113,
+    "do_long": true,
+    "do_shrt": false,
+    "ema_span": 30.0,
+    "ema_spread": 0.0004,
+    "symbol": "BNBUSDT"
+}

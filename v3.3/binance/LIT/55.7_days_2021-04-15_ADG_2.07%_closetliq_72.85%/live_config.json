@@ -1,0 +1,18 @@
+{
+    "config_name": "session_004_with_ema",
+    "logging_level": 0,
+    "ddown_factor": 0.95,
+    "qty_pct": 0.0169,
+    "leverage": 12,
+    "n_entry_orders": 8,
+    "n_close_orders": 16,
+    "grid_spacing": 0.0065,
+    "grid_coefficient": 258.6,
+    "min_markup": 0.01,
+    "markup_range": 0.0101,
+    "do_long": true,
+    "do_shrt": false,
+    "ema_span": 27540.0,
+    "ema_spread": 0.0025,
+    "symbol": "LITUSDT"
+}
