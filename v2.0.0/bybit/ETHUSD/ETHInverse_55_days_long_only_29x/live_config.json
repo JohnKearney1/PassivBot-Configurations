@@ -1,0 +1,35 @@
+{
+    "config_name": "ETHInverse",
+    "symbol": "ETHUSD",
+    "logging_level": 0,
+    "cross_mode": true,
+    "balance_pct": 0.426,
+    "ddown_factor": 1.852,
+    "entry_qty_pct": 0.09807,
+    "min_close_qty_multiplier": 0.4,
+    "leverage": 11.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 19.0,
+    "grid_spacing": 0.00366,
+    "grid_coefficient": 3.43,
+    "min_markup": 0.00068,
+    "max_markup": 0.01213,
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": false,
+        "funding_fee_collect_mode": false,
+        "ohlcv_rsi": {
+            "n_periods": 21,
+            "period_ms": 1800000
+        },
+        "tick_ema": {
+            "span": 10385.0,
+            "spread": 0.0103
+        }
+    },
+    "market_stop_loss": false,
+    "stop_loss_liq_diff": 0.0519,
+    "stop_loss_pos_price_diff": 0.1423,
+    "stop_loss_pos_reduction": 0.133,
+    "key": "d5a0cc399999f22b73c441558d44e28fb9547e03b18a9dec017fbc3ca66fea7d"
+}

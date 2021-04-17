@@ -1,0 +1,35 @@
+{
+    "config_name": "BTCInverse",
+    "symbol": "BTCUSD",
+    "logging_level": 0,
+    "cross_mode": true,
+    "balance_pct": 0.493,
+    "ddown_factor": 1.777,
+    "entry_qty_pct": 0.4764,
+    "min_close_qty_multiplier": 0.7,
+    "leverage": 38.0,
+    "n_entry_orders": 8,
+    "n_close_orders": 9.0,
+    "grid_spacing": 0.00782,
+    "grid_coefficient": 288.26,
+    "min_markup": 0.0018,
+    "max_markup": 0.00349,
+    "indicator_settings": {
+        "do_long": true,
+        "do_shrt": true,
+        "funding_fee_collect_mode": false,
+        "ohlcv_rsi": {
+            "n_periods": 21,
+            "period_ms": 1800000
+        },
+        "tick_ema": {
+            "span": 38339.0,
+            "spread": 0.0118
+        }
+    },
+    "market_stop_loss": false,
+    "stop_loss_liq_diff": 0.0314,
+    "stop_loss_pos_price_diff": 0.0953,
+    "stop_loss_pos_reduction": 0.491,
+    "key": "49d661768e8bf0781391c56162aa160e5c007889721c3ed4c88f0766974e7069"
+}
