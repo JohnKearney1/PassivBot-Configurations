@@ -1,0 +1,21 @@
+{
+    "config_name": "xlm_162_days_adg1.08%_liq20%",
+    "logging_level": 0,
+    "ddown_factor": 0.3554117786653088,
+    "qty_pct": 0.1312325116031732,
+    "leverage": 8.0,
+    "n_entry_orders": 8.0,
+    "n_close_orders": 16.0,
+    "grid_spacing": 0.003547232948093565,
+    "pos_margin_grid_coeff": 176.09857986263984,
+    "volatility_grid_coeff": 74.72140134722659,
+    "volatility_qty_coeff": -331.8441210074169,
+    "min_markup": 0.006112571323196128,
+    "markup_range": 0.003994543831581004,
+    "do_long": true,
+    "do_shrt": true,
+    "ema_span": 21843.986934974077,
+    "ema_spread": 0.011688173152044784,
+    "stop_loss_liq_diff": 0.05,
+    "stop_loss_pos_pct": 0.05
+}
