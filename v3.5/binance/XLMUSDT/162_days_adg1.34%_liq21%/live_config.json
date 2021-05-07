@@ -4,7 +4,7 @@
     "ddown_factor": 0.4398342865935524,
     "qty_pct": 0.13314674469267151,
     "leverage": 8,
-    "n_close_orders": 0.0,
+    "n_close_orders": 16,
     "grid_spacing": 0.003098961102736151,
     "pos_margin_grid_coeff": 178.4577649848602,
     "volatility_grid_coeff": 83.42785593565198,
@@ -15,6 +15,6 @@
     "do_shrt": true,
     "ema_span": 29698.527162575167,
     "ema_spread": 0.010367475628445373,
-    "stop_loss_liq_diff": 0.0,
-    "stop_loss_pos_pct": 0.0
+    "stop_loss_liq_diff": 0.05,
+    "stop_loss_pos_pct": 0.05
 }
