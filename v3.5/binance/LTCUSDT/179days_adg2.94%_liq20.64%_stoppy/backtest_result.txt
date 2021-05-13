@@ -1,0 +1,24 @@
+gain percentage 18180.0%
+average_daily_gain percentage 2.94%
+closest_liq percentage 20.64%
+net_pnl_plus_fees 18331.2
+profit_sum 35012.0
+loss_sum -14777.7
+fee_sum -1903.07
+final_equity 18277.7
+max_drawdown 0.583389
+n_days 179.483
+n_fills 18528.0
+n_entries 3209.0
+n_closes 15319.0
+n_reentries 1113.0
+n_initial_entries 1983.0
+n_normal_closes 14999.0
+n_stop_loss_closes 320.0
+n_stop_loss_entries 113.0
+biggest_psize 174.431
+max_hrs_no_fills_long 51.8369
+max_hrs_no_fills_shrt 71.8341
+max_hrs_no_fills_same_side 71.8341
+max_hrs_no_fills 33.0867
+long: True, short: True

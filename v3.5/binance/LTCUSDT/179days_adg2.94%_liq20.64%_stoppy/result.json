@@ -1,0 +1,142 @@
+{
+    "session_name": "2020-11-11T1111_2021-05-10T1200",
+    "exchange": "binance",
+    "user": "ebinance",
+    "symbol": "LTCUSDT",
+    "latency_simulation_ms": 750,
+    "starting_balance": 100,
+    "do_long": true,
+    "do_shrt": true,
+    "iters": 10000,
+    "num_cpus": 4,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 24,
+    "minimum_liquidation_distance": 0.21,
+    "max_hrs_no_fills": 48,
+    "max_hrs_no_fills_same_side": 72,
+    "wfo": false,
+    "sliding_window_size": 0.4,
+    "n_sliding_windows": 4,
+    "test_full": true,
+    "tau": 0.8,
+    "sdev_max": 0.06,
+    "metric": "returns_daily",
+    "start_date": "2020-11-11T11:11",
+    "end_date": "2021-05-10T12:00",
+    "ranges": {
+        "leverage": [
+            1,
+            10
+        ],
+        "n_close_orders": [
+            16,
+            16
+        ],
+        "qty_pct": [
+            0.0,
+            0.5
+        ],
+        "ddown_factor": [
+            0.0,
+            3.5
+        ],
+        "pos_margin_grid_coeff": [
+            -400,
+            400
+        ],
+        "volatility_grid_coeff": [
+            -2000,
+            2000
+        ],
+        "volatility_qty_coeff": [
+            -2000,
+            2000
+        ],
+        "grid_spacing": [
+            0.0002,
+            0.02
+        ],
+        "markup_range": [
+            0,
+            0.02
+        ],
+        "min_markup": [
+            0.0005,
+            0.012
+        ],
+        "ema_span": [
+            1,
+            300000
+        ],
+        "ema_spread": [
+            0,
+            0.03
+        ],
+        "stop_loss_liq_diff": [
+            0.05,
+            0.05
+        ],
+        "stop_loss_pos_pct": [
+            0.05,
+            0.05
+        ]
+    },
+    "caches_dirpath": "backtests/binance/LTCUSDT/caches/",
+    "optimize_dirpath": "backtests/binance/LTCUSDT/optimize/",
+    "plots_dirpath": "backtests/binance/LTCUSDT/plots/2021-05-13T101444/",
+    "maker_fee": 0.00018,
+    "taker_fee": 0.00036,
+    "inverse": false,
+    "max_leverage": 75,
+    "min_qty": 0.001,
+    "min_cost": 5.0,
+    "qty_step": 0.001,
+    "price_step": 0.01,
+    "contract_multiplier": 1.0,
+    "n_days": 180.0,
+    "config_name": 0.0,
+    "logging_level": 0.0,
+    "ddown_factor": 2.2602243557098007,
+    "qty_pct": 0.024244881690544243,
+    "leverage": 4,
+    "n_close_orders": 16,
+    "grid_spacing": 0.008389164434013548,
+    "pos_margin_grid_coeff": 17.753455780169077,
+    "volatility_grid_coeff": 15.206865373643824,
+    "volatility_qty_coeff": 522.381503404618,
+    "min_markup": 0.0062063374242333266,
+    "markup_range": 0.005184592125760704,
+    "ema_span": 54441.187213624,
+    "ema_spread": 0.008006384618316275,
+    "stop_loss_liq_diff": 0.23603955717658395,
+    "stop_loss_pos_pct": 0.04953626312947159,
+    "result": {
+        "net_pnl_plus_fees": 18331.20270601477,
+        "profit_sum": 35011.95763932573,
+        "loss_sum": -14777.680719325763,
+        "fee_sum": -1903.0742139852,
+        "final_equity": 18277.708916014788,
+        "gain": 182.77708916014788,
+        "max_drawdown": 0.5833887778996081,
+        "n_days": 179.4831534375,
+        "average_daily_gain": 1.0294432686604609,
+        "closest_liq": 0.20635718703618355,
+        "n_fills": 18528,
+        "n_entries": 3209,
+        "n_closes": 15319,
+        "n_reentries": 1113,
+        "n_initial_entries": 1983,
+        "n_normal_closes": 14999,
+        "n_stop_loss_closes": 320,
+        "n_stop_loss_entries": 113,
+        "biggest_psize": 174.431,
+        "max_hrs_no_fills_long": 51.83685833333333,
+        "max_hrs_no_fills_shrt": 71.8340513888889,
+        "max_hrs_no_fills_same_side": 71.8340513888889,
+        "max_hrs_no_fills": 33.086730833333334
+    }
+}
