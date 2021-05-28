@@ -1,0 +1,148 @@
+{
+    "iters": 10000,
+    "num_cpus": 6,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 24,
+    "minimum_liquidation_distance": 0.21,
+    "max_hrs_no_fills": 48,
+    "max_hrs_no_fills_same_side": 96,
+    "wfo": false,
+    "sliding_window_size": 0.2,
+    "n_sliding_windows": 6,
+    "test_full": true,
+    "break_early_factor": 0.25,
+    "tau": 0.8,
+    "sdev_max": 0.06,
+    "metric": "returns_daily",
+    "ranges": {
+        "leverage": [
+            1,
+            16
+        ],
+        "n_close_orders": [
+            3,
+            21
+        ],
+        "qty_pct": [
+            0.0,
+            0.9
+        ],
+        "ddown_factor": [
+            0.0,
+            3.5
+        ],
+        "pos_margin_grid_coeff": [
+            -900,
+            900
+        ],
+        "volatility_grid_coeff": [
+            -1800,
+            1800
+        ],
+        "volatility_qty_coeff": [
+            -1800,
+            1800
+        ],
+        "grid_spacing": [
+            0.0002,
+            0.09
+        ],
+        "markup_range": [
+            0,
+            0.09
+        ],
+        "min_markup": [
+            0.0005,
+            0.018
+        ],
+        "ema_span": [
+            3000,
+            300000
+        ],
+        "ema_spread": [
+            0,
+            0.09
+        ],
+        "stop_loss_liq_diff": [
+            0.2,
+            0.7
+        ],
+        "stop_loss_pos_pct": [
+            0.01,
+            0.6
+        ],
+        "entry_liq_diff_thr": [
+            0,
+            0
+        ]
+    },
+    "exchange": "binance",
+    "user": "account_name",
+    "symbol": "XMRUSDT",
+    "latency_simulation_ms": 750,
+    "starting_balance": 1000,
+    "do_long": true,
+    "do_shrt": true,
+    "start_date": "2020-01-11T11:11",
+    "end_date": "2021-05-25T12:00",
+    "session_name": "2020-01-11T1111_2021-05-25T1200",
+    "caches_dirpath": "backtests/binance/XMRUSDT/caches/",
+    "optimize_dirpath": "backtests/binance/XMRUSDT/optimize/",
+    "plots_dirpath": "backtests/binance/XMRUSDT/plots/2021-05-26T104752/",
+    "maker_fee": 0.00018,
+    "taker_fee": 0.00036,
+    "inverse": false,
+    "max_leverage": 75,
+    "min_qty": 0.001,
+    "min_cost": 5.0,
+    "qty_step": 0.001,
+    "price_step": 0.01,
+    "contract_multiplier": 1.0,
+    "n_days": 477.2,
+    "config_name": 0.0,
+    "logging_level": 0.0,
+    "ddown_factor": 2.0314697070947063,
+    "qty_pct": 0.6190886928851679,
+    "leverage": 6,
+    "n_close_orders": 5,
+    "grid_spacing": 0.07949185774259528,
+    "pos_margin_grid_coeff": 172.61752326868694,
+    "volatility_grid_coeff": 319.48004429757646,
+    "volatility_qty_coeff": 1709.6550599444272,
+    "min_markup": 0.017528773346423367,
+    "markup_range": 0.06034052174388344,
+    "ema_span": 45279.924365750456,
+    "ema_spread": 0.07396237007522444,
+    "stop_loss_liq_diff": 0.42209464328399693,
+    "stop_loss_pos_pct": 0.2562458721296566,
+    "entry_liq_diff_thr": 0,
+    "result": {
+        "net_pnl_plus_fees": 2226.663863180314,
+        "profit_sum": 6093.376518095656,
+        "loss_sum": -3721.0295564391436,
+        "fee_sum": -145.68309847620003,
+        "final_equity": 1497.7701515238018,
+        "gain": 3.226663863180313,
+        "max_drawdown": 0.804689196136395,
+        "n_days": 470.9852739351852,
+        "average_daily_gain": 1.002490325809611,
+        "closest_liq": 0.1511103713899401,
+        "n_fills": 727,
+        "n_entries": 448,
+        "n_closes": 279,
+        "n_reentries": 4,
+        "n_initial_entries": 35,
+        "n_normal_closes": 209,
+        "n_stop_loss_closes": 70,
+        "n_stop_loss_entries": 409,
+        "biggest_psize": 107.421,
+        "max_hrs_no_fills_long": 1182.9253541666667,
+        "max_hrs_no_fills_shrt": 3022.453105277778,
+        "max_hrs_no_fills_same_side": 3022.453105277778,
+        "max_hrs_no_fills": 1153.115101111111
+    }
+}
