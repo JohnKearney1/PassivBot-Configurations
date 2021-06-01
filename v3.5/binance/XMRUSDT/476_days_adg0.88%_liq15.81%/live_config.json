@@ -1,0 +1,22 @@
+{
+    "config_name": 0.0,
+    "logging_level": 0.0,
+    "ddown_factor": 2.1479358500470993,
+    "qty_pct": 0.8614119289978328,
+    "leverage": 6,
+    "n_close_orders": 4,
+    "grid_spacing": 0.07999552048038973,
+    "pos_margin_grid_coeff": 68.25359944413694,
+    "volatility_grid_coeff": 285.9877782903342,
+    "volatility_qty_coeff": 1562.1670339522398,
+    "min_markup": 0.01648497910061919,
+    "markup_range": 0.06646537583927774,
+    "do_long": true,
+    "do_shrt": true,
+    "ema_span": 45490.18500686404,
+    "ema_spread": 0.07111939571854894,
+    "stop_loss_liq_diff": 0.4255181462006836,
+    "stop_loss_pos_pct": 0.24974937017174553,
+    "entry_liq_diff_thr": 0,
+    "symbol": "XMRUSDT"
+}
