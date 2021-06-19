@@ -1,0 +1,37 @@
+gain percentage 6509.0%
+average_daily_gain percentage 4.57%
+closest_bkr percentage 15.23%
+starting balance 100.0
+starting_balance 100.0
+final_balance 6608.94
+final_equity 6608.94
+net_pnl_plus_fees 6508.94
+n_days 93.7082
+adjusted_daily_gain 1.42796
+profit_sum 6704.65
+loss_sum 0.0
+fee_sum -195.714
+lowest_eqbal_ratio 0.110377
+n_fills 555.0
+n_entries 284.0
+n_closes 271.0
+n_reentries 13.0
+n_initial_entries 271.0
+n_normal_closes 271.0
+n_stop_loss_closes 0.0
+biggest_psize 52471.0
+max_hrs_no_fills_long 132.543
+max_hrs_no_fills_shrt 150.728
+max_hrs_no_fills_same_side 150.728
+max_hrs_no_fills 132.543
+long: True, short: True
+n long ientries 199
+n long rentries 0
+n long ncloses 199
+n long scloses 0
+long pnl sum 4370.33911
+n shrt ientries 72
+n shrt rentries 13
+n shrt ncloses 72
+n shrt scloses 0
+shrt pnl sum 2334.3108799999995
