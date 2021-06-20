@@ -1,0 +1,327 @@
+{
+    "iters": 10000,
+    "num_cpus": 4,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "minimum_bankruptcy_distance": 0.15,
+    "maximum_hrs_no_fills": 72,
+    "maximum_hrs_no_fills_same_side": 144,
+    "sliding_window_days": 7,
+    "reward_multiplier_base": 1.2,
+    "metric": "adjusted_daily_gain",
+    "break_early_factor": 0.15,
+    "n_spans": 3,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "min_span": [
+            4000,
+            20000
+        ],
+        "max_span": [
+            80000,
+            460000
+        ],
+        "MAr_coeffs": [
+            0,
+            0
+        ],
+        "long\u00a3rprc_PBr_coeffs": [
+            -1,
+            0.1
+        ],
+        "long\u00a3stop_psize_pct": [
+            -0.1,
+            1
+        ],
+        "long\u00a3leverage": [
+            0.1,
+            15
+        ],
+        "long\u00a3iqty_const": [
+            0,
+            3
+        ],
+        "long\u00a3iprc_const": [
+            0.975,
+            1
+        ],
+        "long\u00a3rqty_const": [
+            0,
+            3
+        ],
+        "long\u00a3rprc_const": [
+            0.975,
+            1
+        ],
+        "long\u00a3markup_const": [
+            1,
+            1.025
+        ],
+        "shrt\u00a3rprc_PBr_coeffs": [
+            -0.1,
+            1
+        ],
+        "shrt\u00a3stop_psize_pct": [
+            -0.1,
+            1
+        ],
+        "shrt\u00a3leverage": [
+            0.1,
+            15
+        ],
+        "shrt\u00a3iqty_const": [
+            0,
+            3
+        ],
+        "shrt\u00a3iprc_const": [
+            1,
+            1.025
+        ],
+        "shrt\u00a3rqty_const": [
+            0,
+            3
+        ],
+        "shrt\u00a3rprc_const": [
+            1,
+            1.025
+        ],
+        "shrt\u00a3markup_const": [
+            0.975,
+            1
+        ]
+    },
+    "exchange": "binance",
+    "user": "ebinance",
+    "symbol": "XLMUSDT",
+    "latency_simulation_ms": 750,
+    "starting_balance": 100,
+    "start_date": "2020-12-16",
+    "end_date": "2021-06-17",
+    "session_name": "2020-12-16_2021-06-17",
+    "caches_dirpath": "backtests/binance/XLMUSDT/caches/",
+    "optimize_dirpath": "backtests/binance/XLMUSDT/optimize/",
+    "plots_dirpath": "backtests/binance/XLMUSDT/plots/2021-06-20T214906/",
+    "maker_fee": 0.00018,
+    "taker_fee": 0.00036,
+    "inverse": false,
+    "max_leverage": 75,
+    "min_qty": 1.0,
+    "min_cost": 5.0,
+    "qty_step": 1.0,
+    "price_step": 1e-05,
+    "c_mult": 1.0,
+    "config_name": "unknown_0_days",
+    "logging_level": 0,
+    "long": {
+        "enabled": true,
+        "iprc_MAr_coeffs": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "iprc_const": 0.9852405010423372,
+        "iqty_MAr_coeffs": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "iqty_const": 2.893181106619828,
+        "leverage": 0.9471559676307163,
+        "markup_MAr_coeffs": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "markup_const": 1.018267604053072,
+        "rprc_MAr_coeffs": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "rprc_PBr_coeffs": [
+            [
+                -0.3731523532427205,
+                0.27184847298255754
+            ]
+        ],
+        "rprc_const": 0.9692004559636037,
+        "rqty_MAr_coeffs": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "rqty_const": 1.6412225353667842,
+        "stop_psize_pct": 0.48801754059200403
+    },
+    "max_span": 435987.3186367578,
+    "min_span": 8056.877159888999,
+    "shrt": {
+        "enabled": false,
+        "iprc_MAr_coeffs": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "iprc_const": 1.0019313312902545,
+        "iqty_MAr_coeffs": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "iqty_const": 1.6193107224601984,
+        "leverage": 0.07849425853797215,
+        "markup_MAr_coeffs": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "markup_const": 0.9959827573881119,
+        "rprc_MAr_coeffs": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "rprc_PBr_coeffs": [
+            [
+                0.24520984849667793,
+                -0.19865082215104077
+            ]
+        ],
+        "rprc_const": 1.012334869130218,
+        "rqty_MAr_coeffs": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "rqty_const": 0.7789623715062715,
+        "stop_psize_pct": 0.007136561199354249
+    },
+    "spans": [
+        8057,
+        59268,
+        435987
+    ],
+    "n_days": 183.0,
+    "result": {
+        "starting_balance": 100,
+        "final_balance": 4681.930613988596,
+        "final_equity": 4681.721333988596,
+        "net_pnl_plus_fees": 4581.930613988598,
+        "gain": 46.81721333988596,
+        "n_days": 182.99999309027777,
+        "average_daily_gain": 1.0212401943214662,
+        "adjusted_daily_gain": 1.2092644086297404,
+        "profit_sum": 9166.106453041146,
+        "loss_sum": -4362.511623041148,
+        "fee_sum": -221.66421601140001,
+        "lowest_eqbal_ratio": 0.13880399076070446,
+        "closest_bkr": 0.2288546744094013,
+        "n_fills": 683,
+        "n_entries": 293,
+        "n_closes": 390,
+        "n_reentries": 34,
+        "n_initial_entries": 259,
+        "n_normal_closes": 258,
+        "n_stop_loss_closes": 132,
+        "biggest_psize": 20928.0,
+        "max_hrs_no_fills_long": 131.43952472222222,
+        "max_hrs_no_fills_shrt": 0.0,
+        "max_hrs_no_fills_same_side": 131.43952472222222,
+        "max_hrs_no_fills": 131.43952472222222
+    }
+}

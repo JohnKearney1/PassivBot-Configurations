@@ -1,0 +1,39 @@
+exchange binance
+symbol XLMUSDT
+gain percentage 4582.0%
+average_daily_gain percentage 2.12%
+closest_bkr percentage 22.89%
+starting balance 100.0
+starting_balance 100.0
+final_balance 4681.93
+final_equity 4681.72
+net_pnl_plus_fees 4581.93
+n_days 183.0
+adjusted_daily_gain 1.20926
+profit_sum 9166.11
+loss_sum -4362.51
+fee_sum -221.664
+lowest_eqbal_ratio 0.138804
+n_fills 683.0
+n_entries 293.0
+n_closes 390.0
+n_reentries 34.0
+n_initial_entries 259.0
+n_normal_closes 258.0
+n_stop_loss_closes 132.0
+biggest_psize 20928.0
+max_hrs_no_fills_long 131.44
+max_hrs_no_fills_shrt 0.0
+max_hrs_no_fills_same_side 131.44
+max_hrs_no_fills 131.44
+long: True, short: False
+n long ientries 259
+n long rentries 34
+n long ncloses 258
+n long scloses 132
+long pnl sum 4803.594829999998
+n shrt ientries 0
+n shrt rentries 0
+n shrt ncloses 0
+n shrt scloses 0
+shrt pnl sum 0.0
