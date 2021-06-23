@@ -1,0 +1,39 @@
+exchange binance
+symbol HBARUSDT
+gain percentage 3236.0%
+average_daily_gain percentage 3.65%
+closest_bkr percentage 39.46%
+starting balance 50.0
+starting_balance 50.0
+final_balance 1668.21
+final_equity 1668.21
+net_pnl_plus_fees 1618.21
+n_days 97.7082
+adjusted_daily_gain 1.35005
+profit_sum 2017.91
+loss_sum -327.65
+fee_sum -72.0502
+lowest_eqbal_ratio 0.401496
+n_fills 5622.0
+n_entries 501.0
+n_closes 5121.0
+n_reentries 107.0
+n_initial_entries 394.0
+n_normal_closes 394.0
+n_stop_loss_closes 4727.0
+biggest_psize 11059.0
+max_hrs_no_fills_long 129.709
+max_hrs_no_fills_shrt 97.3203
+max_hrs_no_fills_same_side 129.709
+max_hrs_no_fills 81.7785
+long: True, short: True
+n long ientries 223
+n long rentries 0
+n long ncloses 223
+n long scloses 0
+long pnl sum 1053.265629999999
+n shrt ientries 171
+n shrt rentries 107
+n shrt ncloses 171
+n shrt scloses 4727
+shrt pnl sum 636.9924900000002
