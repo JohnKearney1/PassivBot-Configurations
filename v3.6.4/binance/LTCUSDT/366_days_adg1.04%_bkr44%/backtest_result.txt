@@ -1,0 +1,39 @@
+exchange binance
+symbol LTCUSDT
+gain percentage 4300.0%
+average_daily_gain percentage 1.04%
+closest_bkr percentage 44.48%
+starting balance 50.0
+starting_balance 50.0
+final_balance 2243.1
+final_equity 2200.01
+net_pnl_plus_fees 2193.1
+n_days 366.0
+adjusted_daily_gain 1.10356
+profit_sum 2287.69
+loss_sum -19.2537
+fee_sum -75.3381
+lowest_eqbal_ratio 0.600646
+n_fills 1817.0
+n_entries 926.0
+n_closes 891.0
+n_reentries 60.0
+n_initial_entries 866.0
+n_normal_closes 865.0
+n_stop_loss_closes 26.0
+biggest_psize 29.083
+max_hrs_no_fills_long 324.964
+max_hrs_no_fills_shrt 343.002
+max_hrs_no_fills_same_side 343.002
+max_hrs_no_fills 256.646
+long: True, short: True
+n long ientries 432
+n long rentries 13
+n long ncloses 432
+n long scloses 26
+long pnl sum 1201.7888600000003
+n shrt ientries 434
+n shrt rentries 47
+n shrt ncloses 433
+n shrt scloses 0
+shrt pnl sum 1066.6446199999984
