@@ -1,0 +1,42 @@
+exchange binance
+symbol XMRUSDT
+gain percentage 315.1%
+average_daily_gain percentage 0.661%
+closest_bkr percentage 69.47%
+starting balance 100.0
+starting_balance 100.0
+final_balance 415.08
+final_equity 415.078
+net_pnl_plus_fees 315.08
+n_days 216.0
+adjusted_daily_gain 1.06601
+profit_sum 345.739
+loss_sum 0.0
+fee_sum -30.6594
+lowest_eqbal_ratio 0.567182
+n_fills 7734.0
+n_entries 4466.0
+n_closes 3268.0
+n_reentries 1197.0
+n_initial_entries 3269.0
+n_normal_closes 3268.0
+n_stop_loss_closes 0.0
+biggest_psize 1.603
+mean_hrs_between_fills 0.6702
+mean_hrs_between_fills_long 3.2522
+mean_hrs_between_fills_shrt 0.844025
+max_hrs_no_fills_long 105.264
+max_hrs_no_fills_shrt 116.21
+max_hrs_no_fills_same_side 116.21
+max_hrs_no_fills 72.4643
+long: True, short: True
+n long ientries 706
+n long rentries 182
+n long ncloses 705
+n long scloses 0
+long pnl sum 177.92425000000003
+n shrt ientries 2563
+n shrt rentries 1015
+n shrt ncloses 2563
+n shrt scloses 0
+shrt pnl sum 167.8149000000002
