@@ -1,0 +1,43 @@
+exchange binance
+symbol MANAUSDT
+gain percentage 403.1%
+average_daily_gain percentage 1.42%
+avg_3days_gain percentage 5.16%
+closest_bkr percentage 45.35%
+starting_balance 86.0
+final_balance 519.27
+final_equity 432.647
+net_pnl_plus_fees 433.27
+n_days 114.611
+adjusted_daily_gain 1.14101
+sharpe_ratio 0.983034
+profit_sum 446.733
+loss_sum -1.36881
+fee_sum -12.0937
+lowest_eqbal_ratio 0.54166
+n_fills 1966.0
+n_entries 1100.0
+n_closes 866.0
+n_reentries 238.0
+n_initial_entries 862.0
+n_normal_closes 860.0
+n_stop_loss_closes 6.0
+biggest_psize 1204.0
+mean_hrs_between_fills 1.39841
+mean_hrs_between_fills_long 3.1046
+mean_hrs_between_fills_shrt 2.54221
+max_hrs_no_fills_long 69.7388
+max_hrs_no_fills_shrt 127.674
+max_hrs_no_fills_same_side 127.674
+max_hrs_no_fills 51.9179
+long: True, short: True
+n long ientries 367
+n long rentries 146
+n long ncloses 366
+n long scloses 6
+long pnl sum 252.17360000000025
+n shrt ientries 495
+n shrt rentries 92
+n shrt ncloses 494
+n shrt scloses 0
+shrt pnl sum 193.19019999999995
