@@ -1,0 +1,45 @@
+exchange binance
+symbol BTSUSDT
+gain percentage 471.6%
+average_daily_gain percentage 1.09%
+avg_3days_gain percentage 3.55%
+closest_bkr percentage 50.04%
+starting_balance 100.0
+final_balance 571.564
+final_equity 571.564
+net_pnl_plus_fees 471.564
+n_days 160.708
+adjusted_daily_gain 1.10863
+sharpe_ratio 0.790151
+profit_sum 503.726
+loss_sum -21.4089
+fee_sum -10.7529
+lowest_eqbal_ratio 0.584064
+n_fills 1069.0
+n_entries 553.0
+n_closes 516.0
+n_reentries 131.0
+n_initial_entries 422.0
+n_normal_closes 496.0
+n_stop_loss_closes 20.0
+biggest_psize 8504.0
+mean_hrs_between_fills 3.60467
+mean_hrs_between_fills_long 7.5776
+mean_hrs_between_fills_shrt 6.86299
+max_hrs_no_fills_long 135.623
+max_hrs_no_fills_shrt 135.285
+max_hrs_no_fills_same_side 135.623
+max_hrs_no_fills 89.7922
+long: True, short: True
+n long ientries 198
+n long rentries 82
+n long ncloses 228
+n long scloses 0
+n long partial fills 45
+long pnl sum 265.36055
+n shrt ientries 224
+n shrt rentries 49
+n shrt ncloses 268
+n shrt scloses 20
+n shrt partial fills 85
+shrt pnl sum 216.9564699999998
