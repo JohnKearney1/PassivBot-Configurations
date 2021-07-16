@@ -1,0 +1,45 @@
+exchange binance
+symbol XRPUSDT
+gain percentage 391.6%
+average_daily_gain percentage 0.884%
+avg_3days_gain percentage 2.81%
+closest_bkr percentage 57.11%
+starting_balance 100.0
+final_balance 493.465
+final_equity 491.632
+net_pnl_plus_fees 393.465
+n_days 181.0
+adjusted_daily_gain 1.08815
+sharpe_ratio 0.83649
+profit_sum 421.153
+loss_sum -18.8906
+fee_sum -8.79742
+lowest_eqbal_ratio 0.592616
+n_fills 2557.0
+n_entries 1410.0
+n_closes 1147.0
+n_reentries 263.0
+n_initial_entries 1147.0
+n_normal_closes 1147.0
+n_stop_loss_closes 0.0
+biggest_psize 617.5
+mean_hrs_between_fills 1.6982
+mean_hrs_between_fills_long 8.40232
+mean_hrs_between_fills_shrt 2.12733
+max_hrs_no_fills_long 131.411
+max_hrs_no_fills_shrt 82.7569
+max_hrs_no_fills_same_side 131.411
+max_hrs_no_fills 50.1953
+long: True, short: True
+n long ientries 218
+n long rentries 80
+n long ncloses 218
+n long scloses 0
+n long partial fills 2
+long pnl sum 361.58279999755877
+n shrt ientries 929
+n shrt rentries 183
+n shrt ncloses 929
+n shrt scloses 0
+n shrt partial fills 6
+shrt pnl sum 40.68001996364236
