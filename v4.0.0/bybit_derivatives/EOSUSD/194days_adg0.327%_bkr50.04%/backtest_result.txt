@@ -1,0 +1,45 @@
+exchange bybit
+symbol EOSUSD
+gain percentage 88.42%
+average_daily_gain percentage 0.327%
+avg_3days_gain percentage 0.945%
+closest_bkr percentage 50.04%
+starting_balance 40.0
+final_balance 75.3694
+final_equity 75.3694
+net_pnl_plus_fees 35.3694
+n_days 194.0
+adjusted_daily_gain 1.0327
+sharpe_ratio 0.647782
+profit_sum 34.794
+loss_sum -1.65018
+fee_sum 2.22559
+lowest_eqbal_ratio 0.662822
+n_fills 3443.0
+n_entries 1817.0
+n_closes 1626.0
+n_reentries 325.0
+n_initial_entries 1492.0
+n_normal_closes 1626.0
+n_stop_loss_closes 0.0
+biggest_psize 1159.0
+mean_hrs_between_fills 1.35192
+mean_hrs_between_fills_long 2.11444
+mean_hrs_between_fills_shrt 3.74577
+max_hrs_no_fills_long 109.211
+max_hrs_no_fills_shrt 162.42
+max_hrs_no_fills_same_side 162.42
+max_hrs_no_fills 104.871
+long: True, short: True
+n long ientries 940
+n long rentries 226
+n long ncloses 1035
+n long scloses 0
+n long partial fills 145
+long pnl sum 9.234450010183242
+n shrt ientries 552
+n shrt rentries 99
+n shrt ncloses 591
+n shrt scloses 0
+n shrt partial fills 108
+shrt pnl sum 23.90940580693071
