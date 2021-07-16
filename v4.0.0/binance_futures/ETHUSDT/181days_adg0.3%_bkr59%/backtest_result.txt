@@ -1,0 +1,45 @@
+exchange binance
+symbol ETHUSDT
+gain percentage 72.57%
+average_daily_gain percentage 0.302%
+avg_3days_gain percentage 1.04%
+closest_bkr percentage 59.2%
+starting_balance 100.0
+final_balance 172.902
+final_equity 172.566
+net_pnl_plus_fees 72.9022
+n_days 181.0
+adjusted_daily_gain 1.03018
+sharpe_ratio 0.621937
+profit_sum 151.112
+loss_sum -71.872
+fee_sum -6.3375
+lowest_eqbal_ratio 0.442561
+n_fills 983.0
+n_entries 517.0
+n_closes 466.0
+n_reentries 51.0
+n_initial_entries 466.0
+n_normal_closes 416.0
+n_stop_loss_closes 50.0
+biggest_psize 0.103
+mean_hrs_between_fills 4.41463
+mean_hrs_between_fills_long 7.36271
+mean_hrs_between_fills_shrt 10.9975
+max_hrs_no_fills_long 83.4375
+max_hrs_no_fills_shrt 137.578
+max_hrs_no_fills_same_side 137.578
+max_hrs_no_fills 77.6494
+long: True, short: True
+n long ientries 277
+n long rentries 34
+n long ncloses 277
+n long scloses 1
+n long partial fills 0
+long pnl sum 99.72557000000002
+n shrt ientries 189
+n shrt rentries 17
+n shrt ncloses 139
+n shrt scloses 49
+n shrt partial fills 0
+shrt pnl sum -20.48588999999999

@@ -1,0 +1,45 @@
+exchange binance
+symbol ADAUSDT
+gain percentage 415.1%
+average_daily_gain percentage 0.91%
+avg_3days_gain percentage 2.95%
+closest_bkr percentage 79.33%
+starting_balance 100.0
+final_balance 515.181
+final_equity 515.149
+net_pnl_plus_fees 415.181
+n_days 181.0
+adjusted_daily_gain 1.09073
+sharpe_ratio 0.834154
+profit_sum 700.146
+loss_sum -264.708
+fee_sum -20.2581
+lowest_eqbal_ratio 0.55979
+n_fills 1652.0
+n_entries 890.0
+n_closes 762.0
+n_reentries 128.0
+n_initial_entries 762.0
+n_normal_closes 656.0
+n_stop_loss_closes 106.0
+biggest_psize 499.0
+mean_hrs_between_fills 2.62795
+mean_hrs_between_fills_long 5.94254
+mean_hrs_between_fills_shrt 4.70639
+max_hrs_no_fills_long 103.938
+max_hrs_no_fills_shrt 81.5989
+max_hrs_no_fills_same_side 103.938
+max_hrs_no_fills 31.7578
+long: True, short: True
+n long ientries 343
+n long rentries 43
+n long ncloses 309
+n long scloses 35
+n long partial fills 1
+long pnl sum 407.71219999999994
+n shrt ientries 419
+n shrt rentries 85
+n shrt ncloses 347
+n shrt scloses 71
+n shrt partial fills 0
+shrt pnl sum 27.726789999999824

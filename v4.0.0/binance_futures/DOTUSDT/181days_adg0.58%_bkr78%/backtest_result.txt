@@ -1,0 +1,45 @@
+exchange binance
+symbol DOTUSDT
+gain percentage 185.7%
+average_daily_gain percentage 0.582%
+avg_3days_gain percentage 1.93%
+closest_bkr percentage 78.02%
+starting_balance 100.0
+final_balance 285.668
+final_equity 285.653
+net_pnl_plus_fees 185.668
+n_days 181.0
+adjusted_daily_gain 1.05809
+sharpe_ratio 0.387695
+profit_sum 231.35
+loss_sum -42.1878
+fee_sum -3.49389
+lowest_eqbal_ratio 0.636444
+n_fills 624.0
+n_entries 352.0
+n_closes 272.0
+n_reentries 84.0
+n_initial_entries 268.0
+n_normal_closes 254.0
+n_stop_loss_closes 18.0
+biggest_psize 17.1
+mean_hrs_between_fills 6.9504
+mean_hrs_between_fills_long 12.2712
+mean_hrs_between_fills_shrt 15.9706
+max_hrs_no_fills_long 90.3069
+max_hrs_no_fills_shrt 132.571
+max_hrs_no_fills_same_side 132.571
+max_hrs_no_fills 57.7903
+long: True, short: True
+n long ientries 161
+n long rentries 30
+n long ncloses 148
+n long scloses 14
+n long partial fills 1
+long pnl sum 164.85810000223205
+n shrt ientries 107
+n shrt rentries 54
+n shrt ncloses 106
+n shrt scloses 4
+n shrt partial fills 1
+shrt pnl sum 24.303900136330743

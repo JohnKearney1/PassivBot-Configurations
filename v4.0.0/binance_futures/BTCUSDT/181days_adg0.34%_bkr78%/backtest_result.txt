@@ -1,0 +1,45 @@
+exchange binance
+symbol BTCUSDT
+gain percentage 86.03%
+average_daily_gain percentage 0.344%
+avg_3days_gain percentage 1.13%
+closest_bkr percentage 78.52%
+starting_balance 100.0
+final_balance 186.035
+final_equity 186.035
+net_pnl_plus_fees 86.0348
+n_days 181.0
+adjusted_daily_gain 1.03434
+sharpe_ratio 0.552532
+profit_sum 159.061
+loss_sum -67.0174
+fee_sum -6.00925
+lowest_eqbal_ratio 0.68329
+n_fills 595.0
+n_entries 316.0
+n_closes 279.0
+n_reentries 37.0
+n_initial_entries 279.0
+n_normal_closes 235.0
+n_stop_loss_closes 44.0
+biggest_psize 0.005
+mean_hrs_between_fills 7.28859
+mean_hrs_between_fills_long 15.6259
+mean_hrs_between_fills_shrt 13.6176
+max_hrs_no_fills_long 192.848
+max_hrs_no_fills_shrt 143.859
+max_hrs_no_fills_same_side 192.848
+max_hrs_no_fills 76.5356
+long: True, short: True
+n long ientries 122
+n long rentries 33
+n long ncloses 122
+n long scloses 0
+n long partial fills 0
+long pnl sum 91.13535000000009
+n shrt ientries 157
+n shrt rentries 4
+n shrt ncloses 113
+n shrt scloses 44
+n shrt partial fills 0
+shrt pnl sum 0.9086699999999741
