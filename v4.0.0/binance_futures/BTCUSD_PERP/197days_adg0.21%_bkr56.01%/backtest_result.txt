@@ -1,0 +1,58 @@
++---------------------------------------------------------+
+|                         Summary                         |
++----------------------------------+----------------------+
+| Metric                           | Value                |
++----------------------------------+----------------------+
+| Exchange                         | binance              |
+| Market type                      | futures              |
+| Symbol                           | BTCUSD_PERP          |
+| No. days                         | 197.0                |
+| Starting balance                 | 0.1                  |
+| Final balance                    | [39m0.150286[39m             |
+| Final equity                     | [39m0.150286[39m             |
+| Net PNL + fees                   | [39m0.0502861[39m            |
+| Total gain percentage            | [39m50.29%[39m               |
+| Average daily gain percentage    | [39m0.207%[39m               |
+| Adjusted daily gain              | [39m1.0207[39m               |
+| avg_3days_gain percentage        | [39m0.662%[39m               |
+| Closest bankruptcy percentage    | [33m56.01%[39m               |
+|                                  |                      |
+| Sharpe ratio                     | 0.708093             |
+| Profit sum                       | [39m0.0646484[39m            |
+| Loss sum                         | [31m-0.0119806[39m           |
+| Fee sum                          | -0.00238172          |
+| Lowest equity/balance ratio      | 0.852226             |
+| Biggest position size            | 103.0                |
+|                                  |                      |
+| No. fills                        | 1711.0               |
+| No. entries                      | 1016.0               |
+| No. closes                       | 695.0                |
+| No. initial entries              | 639.0                |
+| No. reentries                    | 377.0                |
+| No. normal closes                | 602.0                |
+| No. stoploss closes              | 93.0                 |
+|                                  |                      |
+| Mean hours between fills         | 2.76168              |
+| Max hours no fills (same side)   | 89.0881              |
+| Max hours no fills               | 33.4067              |
+|                                  |                      |
+| Long                             | True                 |
+| No. inital entries               | 402                  |
+| No. reentries                    | 164                  |
+| No. normal closes                | 366                  |
+| No. stoploss closes              | 36                   |
+| No. partial fills                | 0                    |
+| Mean hours between fills (long)  | 4.87926              |
+| Max hours no fills (long)        | 89.0881              |
+| PNL sum                          | [39m0.013979827727956327[39m |
+|                                  |                      |
+| Short                            | True                 |
+| No. initial entries              | 237                  |
+| No. reentries                    | 213                  |
+| No. normal closes                | 236                  |
+| No. stoploss closes              | 57                   |
+| No. partial fills                | 5                    |
+| Mean hours between fills (short) | 6.35484              |
+| Max hours no fills (short)       | 47.995               |
+| PNL sum                          | [39m0.03868798315700425[39m  |
++----------------------------------+----------------------+
