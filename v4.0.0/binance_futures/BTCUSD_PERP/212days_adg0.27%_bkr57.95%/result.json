@@ -1,0 +1,583 @@
+{
+    "market_type": "futures",
+    "user": "ebinance",
+    "symbol": "BTCUSD_PERP",
+    "latency_simulation_ms": 1000,
+    "starting_balance": 0.1,
+    "start_date": "2021-01-01",
+    "end_date": "2021-08-01",
+    "iters": 25000,
+    "num_cpus": 7,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "break_early_factor": 0.5,
+    "periodic_gain_n_days": 7,
+    "minimum_sharpe_ratio": 0.5,
+    "minimum_bankruptcy_distance": 0.5,
+    "minimum_equity_balance_ratio": 0.5,
+    "minimum_slice_adg": 1,
+    "maximum_hrs_no_fills": 360,
+    "maximum_hrs_no_fills_same_side": 360,
+    "sliding_window_days": 21,
+    "reward_multiplier_base": 1.2,
+    "metric": "adjusted_daily_gain",
+    "n_spans": 3,
+    "do_long": true,
+    "do_shrt": true,
+    "ranges": {
+        "min_span": [
+            20,
+            1440
+        ],
+        "max_span": [
+            20,
+            30000
+        ],
+        "long\u00a3pbr_stop_loss": [
+            -0.1,
+            0.5
+        ],
+        "long\u00a3pbr_limit": [
+            0.1,
+            2
+        ],
+        "long\u00a3iqty_const": [
+            0.01,
+            0.5
+        ],
+        "long\u00a3iprc_const": [
+            0.97,
+            1.01
+        ],
+        "long\u00a3rqty_const": [
+            0,
+            2
+        ],
+        "long\u00a3rprc_const": [
+            0.97,
+            1
+        ],
+        "long\u00a3markup_const": [
+            1,
+            1.03
+        ],
+        "long\u00a3iqty_MAr_coeffs$00$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3iqty_MAr_coeffs$00$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3iqty_MAr_coeffs$01$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3iqty_MAr_coeffs$01$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3iqty_MAr_coeffs$02$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3iqty_MAr_coeffs$02$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3iprc_MAr_coeffs$00$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3iprc_MAr_coeffs$00$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3iprc_MAr_coeffs$01$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3iprc_MAr_coeffs$01$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3iprc_MAr_coeffs$02$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3iprc_MAr_coeffs$02$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rqty_MAr_coeffs$00$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rqty_MAr_coeffs$00$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rqty_MAr_coeffs$01$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rqty_MAr_coeffs$01$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rqty_MAr_coeffs$02$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rqty_MAr_coeffs$02$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rprc_MAr_coeffs$00$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rprc_MAr_coeffs$00$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rprc_MAr_coeffs$01$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rprc_MAr_coeffs$01$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rprc_MAr_coeffs$02$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rprc_MAr_coeffs$02$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3rprc_PBr_coeffs$00$00": [
+            -1,
+            0.1
+        ],
+        "long\u00a3rprc_PBr_coeffs$00$01": [
+            -1,
+            0.1
+        ],
+        "long\u00a3markup_MAr_coeffs$00$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3markup_MAr_coeffs$00$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3markup_MAr_coeffs$01$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3markup_MAr_coeffs$01$01": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3markup_MAr_coeffs$02$00": [
+            -0.4,
+            0.4
+        ],
+        "long\u00a3markup_MAr_coeffs$02$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3pbr_stop_loss": [
+            -0.1,
+            0.5
+        ],
+        "shrt\u00a3pbr_limit": [
+            0.1,
+            2
+        ],
+        "shrt\u00a3iqty_const": [
+            0.01,
+            0.5
+        ],
+        "shrt\u00a3iprc_const": [
+            0.99,
+            1.03
+        ],
+        "shrt\u00a3rqty_const": [
+            0,
+            2
+        ],
+        "shrt\u00a3rprc_const": [
+            1,
+            1.03
+        ],
+        "shrt\u00a3markup_const": [
+            0.97,
+            1
+        ],
+        "shrt\u00a3iqty_MAr_coeffs$00$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3iqty_MAr_coeffs$00$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3iqty_MAr_coeffs$01$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3iqty_MAr_coeffs$01$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3iqty_MAr_coeffs$02$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3iqty_MAr_coeffs$02$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3iprc_MAr_coeffs$00$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3iprc_MAr_coeffs$00$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3iprc_MAr_coeffs$01$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3iprc_MAr_coeffs$01$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3iprc_MAr_coeffs$02$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3iprc_MAr_coeffs$02$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3rqty_MAr_coeffs$00$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3rqty_MAr_coeffs$00$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3rqty_MAr_coeffs$01$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3rqty_MAr_coeffs$01$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3rqty_MAr_coeffs$02$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3rqty_MAr_coeffs$02$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3rprc_MAr_coeffs$00$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3rprc_MAr_coeffs$00$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3rprc_MAr_coeffs$01$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3rprc_MAr_coeffs$01$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3rprc_MAr_coeffs$02$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3rprc_MAr_coeffs$02$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3rprc_PBr_coeffs$00$00": [
+            -0.1,
+            1
+        ],
+        "shrt\u00a3rprc_PBr_coeffs$00$01": [
+            -0.1,
+            1
+        ],
+        "shrt\u00a3markup_MAr_coeffs$00$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3markup_MAr_coeffs$00$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3markup_MAr_coeffs$01$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3markup_MAr_coeffs$01$01": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3markup_MAr_coeffs$02$00": [
+            -0.4,
+            0.4
+        ],
+        "shrt\u00a3markup_MAr_coeffs$02$01": [
+            -0.4,
+            0.4
+        ]
+    },
+    "starting_configs": "backtests/binance/BTCUSD_PERP/optimize/2021-08-02T111556/intermediate_best_result.json",
+    "base_dir": "backtests",
+    "spot": false,
+    "exchange": "binance",
+    "session_name": "2021-01-01_2021-08-01",
+    "caches_dirpath": "backtests/binance/BTCUSD_PERP/caches/",
+    "optimize_dirpath": "backtests/binance/BTCUSD_PERP/optimize/2021-08-02T133926/",
+    "plots_dirpath": "backtests/binance/BTCUSD_PERP/plots/2021-08-02T191947/",
+    "avg_periodic_gain_key": "avg_7days_gain",
+    "maker_fee": 0.0002,
+    "taker_fee": 0.0004,
+    "inverse": true,
+    "max_leverage": 50,
+    "min_qty": 1.0,
+    "min_cost": 1.0,
+    "qty_step": 1.0,
+    "price_step": 0.1,
+    "c_mult": 100.0,
+    "hedge_mode": true,
+    "n_days": 211.99998842592592,
+    "config_name": "name",
+    "logging_level": 0,
+    "min_span": 1298.2121278257066,
+    "max_span": 3240.981188940138,
+    "long": {
+        "enabled": true,
+        "pbr_stop_loss": -0.0939159216456213,
+        "pbr_limit": 0.3877460962672708,
+        "iqty_const": 0.26336571263317254,
+        "iprc_const": 0.9775443863349297,
+        "rqty_const": 1.1187519877537224,
+        "rprc_const": 0.9841478837510579,
+        "markup_const": 1.0095790390383448,
+        "iqty_MAr_coeffs": [
+            [
+                0.2010164549995175,
+                0.21407915619206166
+            ],
+            [
+                -0.23643795797075362,
+                0.1120515210369303
+            ],
+            [
+                -0.06541890894457922,
+                -0.025102854035420948
+            ]
+        ],
+        "iprc_MAr_coeffs": [
+            [
+                0.07037832553162715,
+                -0.2035959444147604
+            ],
+            [
+                0.18350998602188984,
+                -0.14577573065806046
+            ],
+            [
+                0.04971082192042545,
+                0.2906352490362159
+            ]
+        ],
+        "rqty_MAr_coeffs": [
+            [
+                -0.2171149683967852,
+                0.28098141922046077
+            ],
+            [
+                -0.14696235276639252,
+                -0.16038634282018785
+            ],
+            [
+                -0.06378222299199644,
+                0.07817933461339334
+            ]
+        ],
+        "rprc_MAr_coeffs": [
+            [
+                -0.0979901868861193,
+                -0.07039624367127587
+            ],
+            [
+                -0.0696199189854714,
+                0.25992130233414557
+            ],
+            [
+                0.23244038796207478,
+                0.4
+            ]
+        ],
+        "rprc_PBr_coeffs": [
+            [
+                -0.2229341497557914,
+                -0.3252338365890912
+            ]
+        ],
+        "markup_MAr_coeffs": [
+            [
+                -0.17393516451129976,
+                0.32078993997498056
+            ],
+            [
+                0.028875870227098067,
+                -0.17140315869791406
+            ],
+            [
+                -0.03813497623315244,
+                0.26394852946306624
+            ]
+        ]
+    },
+    "shrt": {
+        "enabled": true,
+        "pbr_stop_loss": 0.1736594378546419,
+        "pbr_limit": 1.5005408611934803,
+        "iqty_const": 0.2795530850824428,
+        "iprc_const": 1.0004808289145908,
+        "rqty_const": 0.6077399974086098,
+        "rprc_const": 1.0179105648164684,
+        "markup_const": 0.9824750054563318,
+        "iqty_MAr_coeffs": [
+            [
+                -0.07064088332046656,
+                -0.09921537700107608
+            ],
+            [
+                -0.2080741791096129,
+                0.2511773606010903
+            ],
+            [
+                -0.19728246903776828,
+                -0.18161284936916974
+            ]
+        ],
+        "iprc_MAr_coeffs": [
+            [
+                0.2095189593671323,
+                0.09080642723870114
+            ],
+            [
+                0.02842227883066406,
+                0.007883723534885355
+            ],
+            [
+                0.15380719988936165,
+                -0.13662516519547246
+            ]
+        ],
+        "rqty_MAr_coeffs": [
+            [
+                0.04752494091703632,
+                0.1709609854029731
+            ],
+            [
+                0.20947185182199385,
+                -0.19931706998133927
+            ],
+            [
+                -0.022826731280782706,
+                -0.15763657334308023
+            ]
+        ],
+        "rprc_MAr_coeffs": [
+            [
+                -0.09942349155629737,
+                0.022373061335067283
+            ],
+            [
+                -0.044946472021831566,
+                -0.06786392429868958
+            ],
+            [
+                -0.4,
+                -0.14770392124575168
+            ]
+        ],
+        "rprc_PBr_coeffs": [
+            [
+                0.6648621057913611,
+                0.24752478854552012
+            ]
+        ],
+        "markup_MAr_coeffs": [
+            [
+                -0.2925481697605159,
+                -0.3343189387079475
+            ],
+            [
+                0.14369440920520016,
+                -0.11549300992049467
+            ],
+            [
+                0.24808247528456828,
+                -0.31424212969648196
+            ]
+        ]
+    },
+    "result": {
+        "exchange": "binance",
+        "symbol": "BTCUSD_PERP",
+        "starting_balance": 0.1,
+        "final_balance": 0.18194327203053054,
+        "final_equity": 0.1770719010700708,
+        "net_pnl_plus_fees": 0.08194327203053091,
+        "gain": 1.7707190107007078,
+        "n_days": 211.99998842592592,
+        "average_daily_gain": 1.0026988510006198,
+        "average_periodic_gain": 0.020444616612151207,
+        "adjusted_daily_gain": 1.0269819592873974,
+        "sharpe_ratio": 1.1803643990183699,
+        "profit_sum": 0.09232875002392137,
+        "loss_sum": -0.007603840406916656,
+        "fee_sum": -0.0027816375864738066,
+        "lowest_eqbal_ratio": 0.7301076262365311,
+        "closest_bkr": 0.5794582899558363,
+        "n_fills": 357,
+        "n_entries": 194,
+        "n_closes": 163,
+        "n_reentries": 31,
+        "n_initial_entries": 163,
+        "n_normal_closes": 153,
+        "n_stop_loss_closes": 10,
+        "biggest_psize": 63.0,
+        "mean_hrs_between_fills": 14.212289726877716,
+        "mean_hrs_between_fills_long": 30.836361952861957,
+        "mean_hrs_between_fills_shrt": 26.226802691867128,
+        "max_hrs_no_fills_long": 259.7475,
+        "max_hrs_no_fills_shrt": 339.6827777777778,
+        "max_hrs_no_fills_same_side": 339.6827777777778,
+        "max_hrs_no_fills": 175.60555555555555
+    }
+}
