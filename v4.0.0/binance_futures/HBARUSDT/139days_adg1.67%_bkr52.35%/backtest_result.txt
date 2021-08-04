@@ -1,0 +1,58 @@
++------------------------------------------------------+
+|                       Summary                        |
++----------------------------------+-------------------+
+| Metric                           | Value             |
++----------------------------------+-------------------+
+| Exchange                         | binance           |
+| Market type                      | futures           |
+| Symbol                           | HBARUSDT          |
+| No. days                         | 138.708           |
+| Starting balance                 | 1000.0            |
+| Final balance                    | 9999.43           |
+| Final equity                     | 9999.27           |
+| Net PNL + fees                   | 8999.43           |
+| Total gain percentage            | 899.9%            |
+| Average daily gain percentage    | 1.67%             |
+| Adjusted daily gain              | 1.16584           |
+| avg_5days_gain percentage        | 8.92%             |
+| Closest bankruptcy percentage    | 52.35%            |
+|                                  |                   |
+| Sharpe ratio                     | 1.40914           |
+| Profit sum                       | 10707.5           |
+| Loss sum                         | -1453.32          |
+| Fee sum                          | -254.772          |
+| Lowest equity/balance ratio      | 0.511651          |
+| Biggest position size            | 45521.0           |
+|                                  |                   |
+| No. fills                        | 2035.0            |
+| No. entries                      | 1125.0            |
+| No. closes                       | 910.0             |
+| No. initial entries              | 502.0             |
+| No. reentries                    | 623.0             |
+| No. normal closes                | 866.0             |
+| No. stoploss closes              | 44.0              |
+|                                  |                   |
+| Mean hours between fills         | 1.63507           |
+| Max hours no fills (same side)   | 126.668           |
+| Max hours no fills               | 93.8203           |
+|                                  |                   |
+| Long                             | True              |
+| No. inital entries               | 192               |
+| No. reentries                    | 436               |
+| No. normal closes                | 388               |
+| No. stoploss closes              | 28                |
+| No. partial fills                | 384               |
+| Mean hours between fills (long)  | 3.18564           |
+| Max hours no fills (long)        | 126.668           |
+| PNL sum                          | 4750.373450000005 |
+|                                  |                   |
+| Short                            | True              |
+| No. initial entries              | 310               |
+| No. reentries                    | 187               |
+| No. normal closes                | 478               |
+| No. stoploss closes              | 16                |
+| No. partial fills                | 399               |
+| Mean hours between fills (short) | 3.35584           |
+| Max hours no fills (short)       | 97.0886           |
+| PNL sum                          | 4503.824780000003 |
++----------------------------------+-------------------+
