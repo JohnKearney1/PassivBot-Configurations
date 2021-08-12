@@ -1,0 +1,58 @@
++-------------------------------------------------------+
+|                        Summary                        |
++----------------------------------+--------------------+
+| Metric                           | Value              |
++----------------------------------+--------------------+
+| Exchange                         | binance            |
+| Market type                      | futures            |
+| Symbol                           | XMRUSDT            |
+| No. days                         | 281.0              |
+| Starting balance                 | 1000.0             |
+| Final balance                    | 4011.11            |
+| Final equity                     | 4010.39            |
+| Net PNL + fees                   | 3011.11            |
+| Total gain percentage            | 301.0%             |
+| Average daily gain percentage    | 0.495%             |
+| Adjusted daily gain              | 1.04951            |
+| avg_5days_gain percentage        | 2.75%              |
+| Closest bankruptcy percentage    | 65.84%             |
+|                                  |                    |
+| Sharpe ratio                     | 0.772625           |
+| Profit sum                       | 5453.48            |
+| Loss sum                         | -2280.44           |
+| Fee sum                          | -161.929           |
+| Lowest equity/balance ratio      | 0.610276           |
+| Biggest position size            | 13.95              |
+|                                  |                    |
+| No. fills                        | 2959.0             |
+| No. entries                      | 1332.0             |
+| No. closes                       | 1627.0             |
+| No. initial entries              | 492.0              |
+| No. reentries                    | 840.0              |
+| No. normal closes                | 599.0              |
+| No. stoploss closes              | 1028.0             |
+|                                  |                    |
+| Mean hours between fills         | 2.27838            |
+| Max hours no fills (same side)   | 167.089            |
+| Max hours no fills               | 78.9631            |
+|                                  |                    |
+| Long                             | True               |
+| No. inital entries               | 183                |
+| No. reentries                    | 50                 |
+| No. normal closes                | 251                |
+| No. stoploss closes              | 476                |
+| No. partial fills                | 157                |
+| Mean hours between fills (long)  | 7.01769            |
+| Max hours no fills (long)        | 167.089            |
+| PNL sum                          | 1915.6432757485827 |
+|                                  |                    |
+| Short                            | True               |
+| No. initial entries              | 309                |
+| No. reentries                    | 790                |
+| No. normal closes                | 348                |
+| No. stoploss closes              | 552                |
+| No. partial fills                | 323                |
+| Mean hours between fills (short) | 3.372              |
+| Max hours no fills (short)       | 78.9631            |
+| PNL sum                          | 1257.4003635670222 |
++----------------------------------+--------------------+
