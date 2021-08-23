@@ -1,0 +1,222 @@
+{
+    "market_type": "futures",
+    "user": "binance_01",
+    "symbol": "HBARUSDT",
+    "latency_simulation_ms": 1000,
+    "starting_balance": 1000,
+    "periodic_gain_n_days": 5,
+    "start_date": "2020-11-01",
+    "end_date": "2021-08-22",
+    "base_dir": "backtests",
+    "spot": false,
+    "exchange": "binance",
+    "session_name": "2020-11-01_2021-08-22",
+    "caches_dirpath": "backtests/binance/HBARUSDT/caches/",
+    "optimize_dirpath": "backtests/binance/HBARUSDT/optimize/2021-08-23T173222/",
+    "plots_dirpath": "backtests/binance/HBARUSDT/plots/2021-08-23T192404/",
+    "avg_periodic_gain_key": "avg_5days_gain",
+    "maker_fee": 0.0002,
+    "taker_fee": 0.0004,
+    "inverse": false,
+    "max_leverage": 50,
+    "min_qty": 1.0,
+    "min_cost": 5.0,
+    "qty_step": 1.0,
+    "price_step": 1e-05,
+    "c_mult": 1.0,
+    "hedge_mode": true,
+    "starting_configs": null,
+    "iters": 15000,
+    "num_cpus": 12,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "config_type": "scalp",
+    "break_early_factor": 0.9,
+    "minimum_sharpe_ratio": 1,
+    "minimum_bankruptcy_distance": 0.5,
+    "minimum_equity_balance_ratio": 0.5,
+    "minimum_slice_adg": 1,
+    "maximum_hrs_no_fills": 48,
+    "maximum_hrs_no_fills_same_side": 108,
+    "maximum_mean_hrs_between_fills": 10,
+    "sliding_window_days": 25,
+    "reward_multiplier_base": 1.2,
+    "metric": "adjusted_daily_gain",
+    "n_spans": 3,
+    "do_long": true,
+    "do_shrt": true,
+    "ranges": {
+        "long\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "long\u00a3min_markup": [
+            0.0005,
+            0.006
+        ],
+        "long\u00a3n_close_orders": [
+            10,
+            10
+        ],
+        "long\u00a3primary_ddown_factor": [
+            0,
+            2.5
+        ],
+        "long\u00a3primary_grid_spacing": [
+            0.001,
+            0.03
+        ],
+        "long\u00a3primary_initial_qty_pct": [
+            0.01,
+            0.5
+        ],
+        "long\u00a3primary_pbr_limit": [
+            0,
+            1
+        ],
+        "long\u00a3primary_grid_spacing_pbr_weighting$00": [
+            0,
+            0.05
+        ],
+        "long\u00a3primary_grid_spacing_pbr_weighting$01": [
+            0,
+            0.05
+        ],
+        "long\u00a3secondary_ddown_factor": [
+            0.1,
+            4
+        ],
+        "long\u00a3secondary_grid_spacing": [
+            0.05,
+            0.4
+        ],
+        "long\u00a3secondary_pbr_limit_added": [
+            0.3,
+            1
+        ],
+        "shrt\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "shrt\u00a3min_markup": [
+            0.0005,
+            0.006
+        ],
+        "shrt\u00a3n_close_orders": [
+            10,
+            10
+        ],
+        "shrt\u00a3primary_ddown_factor": [
+            0,
+            2.5
+        ],
+        "shrt\u00a3primary_grid_spacing": [
+            0.001,
+            0.03
+        ],
+        "shrt\u00a3primary_initial_qty_pct": [
+            0.01,
+            0.5
+        ],
+        "shrt\u00a3primary_pbr_limit": [
+            0.3,
+            1
+        ],
+        "shrt\u00a3primary_grid_spacing_pbr_weighting$00": [
+            0,
+            0.05
+        ],
+        "shrt\u00a3primary_grid_spacing_pbr_weighting$01": [
+            0,
+            0.05
+        ],
+        "shrt\u00a3secondary_ddown_factor": [
+            0.1,
+            4
+        ],
+        "shrt\u00a3secondary_grid_spacing": [
+            0.05,
+            0.4
+        ],
+        "shrt\u00a3secondary_pbr_limit_added": [
+            0.3,
+            1
+        ]
+    },
+    "n_days": 157.70824074074073,
+    "config_name": "template_scalp",
+    "logging_level": 0,
+    "long": {
+        "enabled": true,
+        "markup_range": 0.004671865131225629,
+        "min_markup": 0.0012411720797395782,
+        "n_close_orders": 10,
+        "primary_ddown_factor": 0.16778297615037388,
+        "primary_grid_spacing": 0.02860082855831905,
+        "primary_initial_qty_pct": 0.014284617945948134,
+        "primary_pbr_limit": 0.3384650256709282,
+        "primary_grid_spacing_pbr_weighting": [
+            0.048979516041561304,
+            0.006161067474872515
+        ],
+        "secondary_ddown_factor": 2.130661362672548,
+        "secondary_grid_spacing": 0.09654206684270263,
+        "secondary_pbr_limit_added": 0.4253904026803447
+    },
+    "shrt": {
+        "enabled": true,
+        "markup_range": 0.008334031611615039,
+        "min_markup": 0.004005667712837547,
+        "n_close_orders": 10,
+        "primary_ddown_factor": 0.015180261662393427,
+        "primary_grid_spacing": 0.028228005241910277,
+        "primary_initial_qty_pct": 0.024230958491212776,
+        "primary_pbr_limit": 0.3118241899515205,
+        "primary_grid_spacing_pbr_weighting": [
+            0.009303196180329602,
+            0.0372296444750804
+        ],
+        "secondary_ddown_factor": 0.13849246736171908,
+        "secondary_grid_spacing": 0.16674711765699785,
+        "secondary_pbr_limit_added": 0.7303860125670346
+    },
+    "result": {
+        "exchange": "binance",
+        "symbol": "HBARUSDT",
+        "starting_balance": 1000,
+        "final_balance": 2594.705470092566,
+        "final_equity": 2572.0069833099574,
+        "net_pnl_plus_fees": 1594.705470092609,
+        "gain": 2.5720069833099575,
+        "n_days": 157.70824074074073,
+        "average_daily_gain": 1.0060080662460658,
+        "average_periodic_gain": 0.03086909513649974,
+        "adjusted_daily_gain": 1.060008475911757,
+        "sharpe_ratio": 0.7990545763781429,
+        "time_between_fills_sharpe_ratio": -20.0,
+        "profit_sum": 1772.779776782609,
+        "loss_sum": 0.0,
+        "fee_sum": -178.07430669000001,
+        "lowest_eqbal_ratio": 0.6467542038437029,
+        "closest_bkr": 0.5387498736870182,
+        "n_fills": 76007,
+        "n_entries": 14182,
+        "n_closes": 61825,
+        "n_reentries": 4217,
+        "n_initial_entries": 9965,
+        "n_normal_closes": 61825,
+        "n_stop_loss_closes": 0,
+        "biggest_psize": 11715.0,
+        "mean_hrs_between_fills": 0.049797360511758995,
+        "mean_hrs_between_fills_long": 0.07475652817004953,
+        "mean_hrs_between_fills_shrt": 0.14914484111347537,
+        "max_hrs_no_fills_long": 63.57611111111111,
+        "max_hrs_no_fills_shrt": 107.62527777777778,
+        "max_hrs_no_fills_same_side": 107.62527777777778,
+        "max_hrs_no_fills": 14.2175
+    }
+}
