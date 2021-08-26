@@ -1,0 +1,222 @@
+{
+    "market_type": "futures",
+    "user": "ebinance",
+    "symbol": "XMRUSDT",
+    "latency_simulation_ms": 1000,
+    "starting_balance": 1000,
+    "periodic_gain_n_days": 3,
+    "start_date": "2020-11-01",
+    "end_date": "2021-08-24",
+    "base_dir": "backtests",
+    "spot": false,
+    "exchange": "binance",
+    "session_name": "2020-11-01_2021-08-24",
+    "caches_dirpath": "backtests/binance/XMRUSDT/caches/",
+    "optimize_dirpath": "backtests/binance/XMRUSDT/optimize/2021-08-25T204651/",
+    "plots_dirpath": "backtests/binance/XMRUSDT/plots/2021-08-26T005153/",
+    "avg_periodic_gain_key": "avg_3days_gain",
+    "maker_fee": 0.0002,
+    "taker_fee": 0.0004,
+    "inverse": false,
+    "max_leverage": 75,
+    "min_qty": 0.001,
+    "min_cost": 5.0,
+    "qty_step": 0.001,
+    "price_step": 0.01,
+    "c_mult": 1.0,
+    "hedge_mode": true,
+    "starting_configs": null,
+    "iters": 15000,
+    "num_cpus": 7,
+    "options": {
+        "c1": 1.4962,
+        "c2": 1.4962,
+        "w": 0.7298
+    },
+    "n_particles": 48,
+    "config_type": "scalp",
+    "break_early_factor": 0.5,
+    "minimum_sharpe_ratio": 0.5,
+    "minimum_bankruptcy_distance": 0.33333,
+    "minimum_equity_balance_ratio": 0.5,
+    "minimum_slice_adg": 1,
+    "maximum_hrs_no_fills": 100,
+    "maximum_hrs_no_fills_same_side": 100,
+    "maximum_mean_hrs_between_fills": 10,
+    "sliding_window_days": 10,
+    "reward_multiplier_base": 1.2,
+    "metric": "adjusted_daily_gain",
+    "n_spans": 3,
+    "do_long": true,
+    "do_shrt": false,
+    "ranges": {
+        "long\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "long\u00a3min_markup": [
+            0.0005,
+            0.005
+        ],
+        "long\u00a3n_close_orders": [
+            10,
+            10
+        ],
+        "long\u00a3primary_ddown_factor": [
+            0.3,
+            3
+        ],
+        "long\u00a3primary_grid_spacing": [
+            0.001,
+            0.025
+        ],
+        "long\u00a3primary_initial_qty_pct": [
+            0.001,
+            0.15
+        ],
+        "long\u00a3primary_pbr_limit": [
+            0.3,
+            2
+        ],
+        "long\u00a3primary_grid_spacing_pbr_weighting$00": [
+            0,
+            0.07
+        ],
+        "long\u00a3primary_grid_spacing_pbr_weighting$01": [
+            0,
+            0.07
+        ],
+        "long\u00a3secondary_ddown_factor": [
+            1.15,
+            1.15
+        ],
+        "long\u00a3secondary_grid_spacing": [
+            0.1,
+            0.1
+        ],
+        "long\u00a3secondary_pbr_limit_added": [
+            0,
+            0
+        ],
+        "shrt\u00a3markup_range": [
+            0.004,
+            0.01
+        ],
+        "shrt\u00a3min_markup": [
+            0.0005,
+            0.005
+        ],
+        "shrt\u00a3n_close_orders": [
+            10,
+            10
+        ],
+        "shrt\u00a3primary_ddown_factor": [
+            0.3,
+            3
+        ],
+        "shrt\u00a3primary_grid_spacing": [
+            0.001,
+            0.03
+        ],
+        "shrt\u00a3primary_initial_qty_pct": [
+            0.001,
+            0.15
+        ],
+        "shrt\u00a3primary_pbr_limit": [
+            0.3,
+            1
+        ],
+        "shrt\u00a3primary_grid_spacing_pbr_weighting$00": [
+            0,
+            0.06
+        ],
+        "shrt\u00a3primary_grid_spacing_pbr_weighting$01": [
+            0,
+            0.06
+        ],
+        "shrt\u00a3secondary_ddown_factor": [
+            0.3,
+            3
+        ],
+        "shrt\u00a3secondary_grid_spacing": [
+            0.07,
+            0.4
+        ],
+        "shrt\u00a3secondary_pbr_limit_added": [
+            0.3,
+            1
+        ]
+    },
+    "n_days": 295.99997685185184,
+    "config_name": "template_scalp",
+    "logging_level": 0,
+    "long": {
+        "enabled": true,
+        "markup_range": 0.009573811839369022,
+        "min_markup": 0.004540192107863839,
+        "n_close_orders": 10,
+        "primary_ddown_factor": 1.3673718875789915,
+        "primary_grid_spacing": 0.02237767609576279,
+        "primary_initial_qty_pct": 0.010379562746247134,
+        "primary_pbr_limit": 1.069279565623828,
+        "primary_grid_spacing_pbr_weighting": [
+            0.06337183940868914,
+            0.05315588100080534
+        ],
+        "secondary_ddown_factor": 1.15,
+        "secondary_grid_spacing": 0.1,
+        "secondary_pbr_limit_added": 0
+    },
+    "shrt": {
+        "enabled": false,
+        "markup_range": 0.004,
+        "min_markup": 0.0005,
+        "n_close_orders": 10,
+        "primary_ddown_factor": 0.3,
+        "primary_grid_spacing": 0.001,
+        "primary_initial_qty_pct": 0.001,
+        "primary_pbr_limit": 0.3,
+        "primary_grid_spacing_pbr_weighting": [
+            0,
+            0
+        ],
+        "secondary_ddown_factor": 0.3,
+        "secondary_grid_spacing": 0.07,
+        "secondary_pbr_limit_added": 0.3
+    },
+    "result": {
+        "exchange": "binance",
+        "symbol": "XMRUSDT",
+        "starting_balance": 1000,
+        "final_balance": 2739.483359562028,
+        "final_equity": 2737.100399562028,
+        "net_pnl_plus_fees": 1739.4833595620005,
+        "gain": 2.737100399562028,
+        "n_days": 295.99997685185184,
+        "average_daily_gain": 1.003407478755651,
+        "average_periodic_gain": 0.010412828820065972,
+        "adjusted_daily_gain": 1.0340616057005552,
+        "sharpe_ratio": 0.644853055930418,
+        "time_between_fills_sharpe_ratio": -20.0,
+        "profit_sum": 1856.4070400000005,
+        "loss_sum": 0.0,
+        "fee_sum": -116.92368043800002,
+        "lowest_eqbal_ratio": 0.6037384055657886,
+        "closest_bkr": 0.8070795530603362,
+        "n_fills": 33599,
+        "n_entries": 6785,
+        "n_closes": 26814,
+        "n_reentries": 1867,
+        "n_initial_entries": 4918,
+        "n_normal_closes": 26814,
+        "n_stop_loss_closes": 0,
+        "biggest_psize": 13.292,
+        "mean_hrs_between_fills": 0.2114285548941799,
+        "mean_hrs_between_fills_long": 0.2114285548941799,
+        "mean_hrs_between_fills_shrt": 0.0,
+        "max_hrs_no_fills_long": 40.0825,
+        "max_hrs_no_fills_shrt": 0.0,
+        "max_hrs_no_fills_same_side": 40.0825,
+        "max_hrs_no_fills": 40.0825
+    }
+}
