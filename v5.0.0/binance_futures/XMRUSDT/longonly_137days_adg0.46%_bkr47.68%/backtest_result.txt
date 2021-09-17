@@ -1,0 +1,46 @@
++-------------------------------------------------+
+|                     Summary                     |
++------------------------------------+------------+
+| Metric                             | Value      |
++------------------------------------+------------+
+| Exchange                           | binance    |
+| Market type                        | futures    |
+| Symbol                             | XMRUSDT    |
+| No. days                           | 136.999    |
+| Starting balance                   | 100.0      |
+| Final balance                      | 187.451    |
+| Final equity                       | 187.41     |
+| Net PNL + fees                     | 87.4513    |
+| Total gain percentage              | 87.45%     |
+| Average daily gain percentage      | 0.46%      |
+| Adjusted daily gain                | 0.00458414 |
+| Closest bankruptcy percentage      | 47.68%     |
+|                                    |            |
+| Profit sum                         | 95.254     |
+| Loss sum                           | 0.0        |
+| Fee sum                            | -7.80261   |
+| Lowest equity/balance ratio        | 0.515976   |
+| Biggest psize                      | 1.087      |
+| Price action closeness mean long   | 0.0199216  |
+| Price action closeness median long | 0.0161243  |
+| Price action closeness max long    | 0.451099   |
+| Average n fills per day            | 25.7957    |
+|                                    |            |
+| No. fills                          | 3534.0     |
+| No. entries                        | 1672.0     |
+| No. closes                         | 1862.0     |
+| No. initial entries                | 1361.0     |
+| No. reentries                      | 311.0      |
+|                                    |            |
+| Mean hours between fills           | 3.26513    |
+| Max hours no fills (same side)     | 49.4178    |
+| Max hours no fills                 | 49.4178    |
+|                                    |            |
+| Long                               | True       |
+| No. inital entries                 | 1361       |
+| No. reentries                      | 311        |
+| No. normal closes                  | 1862       |
+| Mean hours stuck (long)            | 3.26513    |
+| Max hours stuck (long)             | 49.4178    |
+| PNL sum                            | 95.25396   |
++------------------------------------+------------+
