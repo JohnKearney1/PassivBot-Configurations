@@ -10,7 +10,7 @@
           "min_markup": 0.003453659242258407,
           "n_close_orders": 7,
           "pbr_limit": 0.15,
-          "secondary_grid_spacing": 0.3480476565059373,
+          "secondary_pprice_diff": 0.3480476565059373,
           "secondary_pbr_allocation": 0.5},
  "shrt": {"enabled": false,
           "eprice_exp_base": 1.618034,
@@ -22,5 +22,5 @@
           "min_markup": 0.0005,
           "n_close_orders": 7,
           "pbr_limit": 0.5,
-          "secondary_grid_spacing": 0.21,
+          "secondary_pprice_diff": 0.21,
           "secondary_pbr_allocation": 0}}
