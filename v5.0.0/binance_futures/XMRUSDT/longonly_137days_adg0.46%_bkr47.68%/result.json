@@ -69,7 +69,7 @@
             0.2,
             0.8
         ],
-        "long\u00a3secondary_grid_spacing": [
+        "long\u00a3secondary_pprice_diff": [
             0.1,
             0.5
         ],
@@ -113,7 +113,7 @@
             0,
             0
         ],
-        "shrt\u00a3secondary_grid_spacing": [
+        "shrt\u00a3secondary_pprice_diff": [
             0.21,
             0.5
         ],
@@ -145,7 +145,7 @@
         "initial_qty_pct": 0.09757145952919437,
         "eprice_pprice_diff": 0.01014077869544172,
         "secondary_pbr_allocation": 0.5235615804370433,
-        "secondary_grid_spacing": 0.11748742951647255,
+        "secondary_pprice_diff": 0.11748742951647255,
         "eprice_exp_base": 1.618034,
         "min_markup": 0.003972299064825086,
         "markup_range": 0.004735002767922291,
@@ -159,7 +159,7 @@
         "initial_qty_pct": 0.001,
         "eprice_pprice_diff": 0.001,
         "secondary_pbr_allocation": 0,
-        "secondary_grid_spacing": 0.21,
+        "secondary_pprice_diff": 0.21,
         "eprice_exp_base": 1.618034,
         "min_markup": 0.0005,
         "markup_range": 0.004,
