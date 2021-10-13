@@ -1,4 +1,4 @@
-{"config_name": "longonly_binance_vetusdt_102days_adg0.045%_bkr100.00%_eqbal97.46%"",
+{"config_name": "longonly_binance_vetusdt_102days_adg0.045%_bkr100.00%_eqbal97.46%",
     "logging_level": 0,
     "long": {"enabled": true,
              "eprice_exp_base": 1.638084438660033,
