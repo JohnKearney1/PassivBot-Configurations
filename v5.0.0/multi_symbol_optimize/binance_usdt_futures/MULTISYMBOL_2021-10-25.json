@@ -1,4 +1,4 @@
-{"config_name": "longonly_binance_usdt_multisymbol_172days",
+{"config_name": "multisymbol_2021-05-01_to_2021-10-20_42_top_vol_symbols",
     "logging_level": 0,
     "long": {"enabled": true,
              "eprice_exp_base": 1.3164933633605387,
