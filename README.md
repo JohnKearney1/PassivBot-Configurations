@@ -24,3 +24,5 @@ To find configurations for your version of PassivBot, check the associated versi
 If you would like to contribute to this repository, submit a [pull request](https://github.com/JohnKearney1/PassivBot-Configurations/pulls) with your data!
 
 Don't have GitHub? Join the [Discord Server](https://discord.gg/QAF2H2UmzZ) and message @JohnKearney with requests!
+
+By contributing to this repository, you agree to the same [license](https://github.com/JohnKearney1/PassivBot-Configurations/blob/master/LICENSE) that governs Passivbot.
