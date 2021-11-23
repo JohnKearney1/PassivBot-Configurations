@@ -5,7 +5,6 @@
 > [`Fork`](https://github.com/JohnKearney1/PassivBot-Configurations/fork)  
 > [`Watch This Repository`](https://github.com/JohnKearney1/PassivBot-Configurations/subscription)  
 > [`Issues`](https://github.com/JohnKearney1/PassivBot-Configurations/issues)  
-> [`Create New Issue`](https://github.com/JohnKearney1/PassivBot-Configurations/issues/new)  
 
 Repository of [Passivbot](https://passivbot.com) configurations, given by the community for public use. Use at your own risk! Some configurations may have backtest data, some may not.
 
