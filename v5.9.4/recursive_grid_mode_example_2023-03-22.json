@@ -1,4 +1,4 @@
-{"config_name": "recursive_grid_0days",
+{"config_name": "recursive_grid_100_symbols_1171days",
  "logging_level": 0,
  "long": {"auto_unstuck_ema_dist": -0.0021519425390829896,
           "auto_unstuck_wallet_exposure_threshold": 0.06408176050569775,
