@@ -63,7 +63,7 @@
   backwards_tp_short: true
 
   # choices: [r/recursive_grid, s/static_grid, n/neat_grid, c/clock]
-  passivbot_mode: neat_grid
+  passivbot_mode: clock
 
   # symbols with data since earlier than 2021-05-01
   symbols: [
